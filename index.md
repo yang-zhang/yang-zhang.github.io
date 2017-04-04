@@ -1,2 +1,2 @@
-## Map to my repositories
+[map to my repositories](/map/)
 
