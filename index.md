@@ -1,4 +1,4 @@
-## Map to my [github repositories](https://github.com/yang-zhang).
+## Map to my repositories.
 
 - [code-data-science](https://github.com/yang-zhang/code-data-science)
 - [ds-utils](https://github.com/yang-zhang/ds-utils)
