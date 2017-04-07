@@ -1,3 +1,3 @@
 [Data Science Environment](https://yang-zhang.github.io/data-science-environment)
 
-[Map to Repositories](map)
+[Map to Repositories](map.md)
