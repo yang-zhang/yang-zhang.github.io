@@ -4,4 +4,4 @@ layout: default
 
 [Data Science Environment](https://yang-zhang.github.io/ds-env)
 
-[Map to Repositories](map)
+[Map to Repositories](map.md)
