@@ -17,7 +17,7 @@ Data science utility functions in Python.
 ### [Data Science Math](https://yang-zhang.github.io/ds-math/)
 Tutorials, demos, and experiments on math problems in Data Science (probability, linear algebra, machine Learning, statistics, optimization, etc.)
 
-### [Code Data Science](https://yang-zhang.github.io/code-data-science/)
+### [Code Data Science](https://github.com/yang-zhang/code-data-science/)
 Tutorials, demos, and tests on using software to solve data science problems.
 
 ### [Kaggle](https://github.com/yang-zhang/kaggle)
