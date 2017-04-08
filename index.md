@@ -22,7 +22,7 @@ Tutorials, demos, and tests on using software to solve data science problems.
 ### [Kaggle](https://github.com/yang-zhang/kaggle)
 Kaggle code.
 
-## [Map](map.md) to github/yang-zhang Repositories
+### [Map to Repositories](map.md)
 
 ---
 [View on GitHub](https://github.com/yang-zhang/yang-zhang.github.io)
