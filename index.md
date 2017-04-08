@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+### [Why and how to automatically save Jupyter notebook to .py files](jupyter_autosave.md)
+
 ## Repositories
 
 ### [Data Science Environment](https://yang-zhang.github.io/ds-env)
