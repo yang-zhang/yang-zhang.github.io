@@ -11,6 +11,6 @@ layout: default
 - [Data Analysis Exercise](https://github.com/yang-zhang/data-analysis-exercises)
 - [Python Lanaguage](https://github.com/yang-zhang/lang-python)
 - [R Language](https://github.com/yang-zhang/lang-r)
-- [R Utility Functions] (https://github.com/yang-zhang/utils-r)
+- [R Utility Functions](https://github.com/yang-zhang/utils-r)
 - [Java Language](https://github.com/yang-zhang/lang-java)
 - [SQL](https://github.com/yang-zhang/sql)
