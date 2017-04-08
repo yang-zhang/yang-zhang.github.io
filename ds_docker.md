@@ -14,13 +14,13 @@ RUN conda install -c conda-forge jupyter_contrib_nbextensions && \
 ADD jupyter_notebook_config.py /root/.jupyter/
 ```
 
-## Step-3: build the docker image 
+### Step-3: build the docker image 
 For [example](https://github.com/yang-zhang/ds-env/blob/master/setup_docker.md):
 ```
 docker build --file docker/dockerfiles/yang-zhang-ds.docker -t yang-zhang-ds .
 ```
 
-## Step-4 (bonus): add shortcuts for ease of use
+### Step-4 (bonus): add shortcuts for ease of use
 In `.bash_profile`, add shortcuts to the command to run python, ipython, jupyter notebook, and bash in the docker image. For [example](https://github.com/yang-zhang/ds-env/blob/master/setup_docker.md):
 ```bash
 # run python in docker
