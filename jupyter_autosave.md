@@ -23,5 +23,5 @@ ADD jupyter_notebook_config.py [HOME]/.jupyter/
 See [here](https://github.com/yang-zhang/ds-env/blob/master/docker/dockerfiles/yang-zhang-ds.docker#L8) for a real example. For more details on using docker to run jupyter notebook and to do data science in general, see this [post](ds_docker.md).
 
 ## References:
-- [http://stackoverflow.com/questions/17077494/how-do-i-convert-a-ipython-notebook-into-a-python-file-via-commandline]
-- [http://protips.maxmasnick.com/ipython-notebooks-automatically-export-py-and-html]
+- http://stackoverflow.com/questions/17077494/how-do-i-convert-a-ipython-notebook-into-a-python-file-via-commandline
+- http://protips.maxmasnick.com/ipython-notebooks-automatically-export-py-and-html
