@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+## Notes
+
 ### [Why and how to automatically save Jupyter notebook to .py files](jupyter_autosave.md)
 
 ## Repositories
