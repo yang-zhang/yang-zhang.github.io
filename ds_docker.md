@@ -1,5 +1,5 @@
 ### Step-1: find a good docker image
-For example, [kaggle/python](https://github.com/Kaggle/docker-python)
+For example, [kaggle/python](https://github.com/Kaggle/docker-python).
 
 ### Step-2: make changes to the docker image
 Install additional packages and copy additional files, for [example](https://github.com/yang-zhang/ds-env/blob/master/docker/dockerfiles/yang-zhang-ds.docker):
