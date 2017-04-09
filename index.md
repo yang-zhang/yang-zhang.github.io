@@ -11,6 +11,7 @@ Setup, configurations, and productivity tools for data science: Docker, Conda, J
 Data science utility functions in Python. 
 ### [Deep Learning](https://yang-zhang.github.io/deep-learning/)
 Deep Learning demos and experiments.
+
 <!---
 ## Repositories
 ### [Data Science Math](https://yang-zhang.github.io/ds-math/)
@@ -21,7 +22,8 @@ Tutorials, demos, and tests on using software to solve data science problems.
 
 ### [Kaggle](https://github.com/yang-zhang/kaggle)
 Kaggle code.
--->
+--->
+
 ### [Map to my repositories](map.md)
 
 ---
