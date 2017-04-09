@@ -43,5 +43,7 @@ dk_ds() {
 }
 ```
 Note that the `$PYTHONPATH` is updated in the container to include the local packages you want to add. In this example, jupyter notebook is running on `0.0.0.0:8888`.
+
 ---
-Go back to [github/yang-zhang Home Page](https://yang-zhang.github.io/)
+[View Source](https://github.com/yang-zhang/yang-zhang.github.io)
+[GitHub Repositories](https://github.com/yang-zhang)
