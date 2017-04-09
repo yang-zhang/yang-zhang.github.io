@@ -26,4 +26,5 @@ Kaggle code.
 ### [Map to my repositories](map.md)
 
 ---
-[GitHub](https://github.com/yang-zhang)
+[View Source](https://github.com/yang-zhang/yang-zhang.github.io)
+[GitHub Repositories](https://github.com/yang-zhang)
