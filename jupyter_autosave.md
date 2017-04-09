@@ -29,4 +29,7 @@ See [here](https://github.com/yang-zhang/ds-env/blob/master/docker/dockerfiles/y
 - http://protips.maxmasnick.com/ipython-notebooks-automatically-export-py-and-html
 
 ---
-Go back to [github/yang-zhang Home Page](https://yang-zhang.github.io/)
+---
+[View Source](https://github.com/yang-zhang/yang-zhang.github.io)
+
+[GitHub Repositories](https://github.com/yang-zhang)
