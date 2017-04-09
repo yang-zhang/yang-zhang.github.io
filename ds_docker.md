@@ -22,7 +22,7 @@ For [example](https://github.com/yang-zhang/ds-env/blob/master/setup_docker.md):
 docker build --file docker/dockerfiles/yang-zhang-ds.docker -t yang-zhang-ds .
 ```
 
-### Step-4 (bonus): add shortcuts for ease of use
+### Step-4: run docker image 
 In `.bash_profile`, add shortcuts to the command to run python, ipython, jupyter notebook, and bash in the docker image. For [example](https://github.com/yang-zhang/ds-env/blob/master/setup_docker.md):
 ```bash
 # run python in docker
@@ -42,7 +42,6 @@ dk_ds() {
   docker run --rm -v ~/git:/tmp -it yang-zhang-ds bash -c 'export PYTHONPATH=$PYTHONPATH:/tmp/ds-utils:/tmp/secrets; bash'
 }
 ```
-Note that the `$PYTHONPATH` is updated in the container to include the local packages you want to add. 
-
+Note that the `$PYTHONPATH` is updated in the container to include the local packages you want to add. In this example, jupyter notebook is running on `0.0.0.0:8888`.
 ---
 Go back to [github/yang-zhang Home Page](https://yang-zhang.github.io/)
