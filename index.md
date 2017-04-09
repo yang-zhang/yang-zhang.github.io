@@ -7,13 +7,12 @@ layout: default
 ### [Why and how to automatically save Jupyter notebook to .py files](jupyter_autosave.md)
 ### [Data Science Environment](https://yang-zhang.github.io/ds-env)
 Setup, configurations, and productivity tools for data science: Docker, Conda, Jupyter, Git, etc.
-
-<!---
-## Repositories
-
 ### [Data Sciencne Utility Functions](https://yang-zhang.github.io/ds-utils/)
 Data science utility functions in Python. 
-
+### [Deep Learning](https://yang-zhang.github.io/deep-learning/)
+Deep Learning demos and experiments.
+<!---
+## Repositories
 ### [Data Science Math](https://yang-zhang.github.io/ds-math/)
 Tutorials, demos, and experiments on math problems in Data Science (probability, linear algebra, machine Learning, statistics, optimization, etc.)
 
