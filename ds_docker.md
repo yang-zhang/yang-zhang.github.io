@@ -42,6 +42,7 @@ dk_ds() {
   docker run --rm -v ~/git:/tmp -it yang-zhang-ds bash -c 'export PYTHONPATH=$PYTHONPATH:/tmp/ds-utils:/tmp/secrets; bash'
 }
 ```
+Note that the `$PYTHONPATH` is updated in the container to include the local packages you want to add. 
 
 ---
 Go back to [github/yang-zhang Home Page](https://yang-zhang.github.io/)
