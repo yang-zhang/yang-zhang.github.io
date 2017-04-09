@@ -6,7 +6,7 @@ layout: default
 ### [Simple steps to using docker for data science](ds_docker.md)
 ### [Why and how to automatically save Jupyter notebook to .py files](jupyter_autosave.md)
 ### [Data Science Environment](https://yang-zhang.github.io/ds-env)
-Setup, configurations, and productivity tools for data science: docker, jupyter, git, etc.
+Setup, configurations, and productivity tools for data science: Docker, Conda, Jupyter, Git, etc.
 
 <!---
 ## Repositories
