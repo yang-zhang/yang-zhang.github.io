@@ -16,4 +16,5 @@ layout: default
 - [Java Language](https://github.com/yang-zhang/lang-java)
 - [SQL](https://github.com/yang-zhang/sql)
 
-Go back to [github/yang-zhang Home Page](https://yang-zhang.github.io/)
+---
+Back to [Home Page](https://yang-zhang.github.io/)
