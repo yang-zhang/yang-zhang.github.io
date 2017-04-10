@@ -16,7 +16,8 @@ Deep Learning demos and experiments.
 
 <!---
 ### TODO [Encoding for train and test]
-### TODO [SCorer for log-scale]
+### TODO [Scorer for log-scale]
+### TODO [Visualization](https://github.com/yang-zhang/ds-utils/blob/master/ds_utils/visualization.py) 
 ## Repositories
 ### TODO [Data Science Math](https://yang-zhang.github.io/ds-math/)
 Tutorials, demos, and experiments on math problems in Data Science (probability, linear algebra, machine Learning, statistics, optimization, etc.)
