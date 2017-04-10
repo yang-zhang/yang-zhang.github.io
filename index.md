@@ -11,6 +11,7 @@ Setup, configurations, and productivity tools for data science: Docker, Conda, J
 Calculating various correlation measurements between numerical and categorical data with Python and R implementations side by side for comparison: correlation coefficient, chi-square test, mutual information, t-test, anova.
 ### [Data Sciencne Utility Functions](https://yang-zhang.github.io/ds-utils/)
 Data science utility functions in Python including explorative analysis, statistics, math functions, preprocessing, etc.
+### [Minimum Coins Using Dynamic Programming](https://github.com/yang-zhang/ds-math/blob/master/optimization/minimum_coins_dynamic_programming.ipynb)
 ### [Deep Learning](https://yang-zhang.github.io/deep-learning/)
 Deep Learning demos and experiments.
 
@@ -32,6 +33,6 @@ Kaggle code.
 ### [Map to my repositories](map.md)
 
 ---
-[View Source](https://github.com/yang-zhang/yang-zhang.github.io/index.md)
+[View Source](https://github.com/yang-zhang/yang-zhang.github.io)
 
 [GitHub](https://github.com/yang-zhang)
