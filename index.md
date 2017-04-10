@@ -15,11 +15,13 @@ Data science utility functions in Python including explorative analysis, statist
 Deep Learning demos and experiments.
 
 <!---
+### TODO [Encoding for train and test]
+### TODO [SCorer for log-scale]
 ## Repositories
-### [Data Science Math](https://yang-zhang.github.io/ds-math/)
+### TODO [Data Science Math](https://yang-zhang.github.io/ds-math/)
 Tutorials, demos, and experiments on math problems in Data Science (probability, linear algebra, machine Learning, statistics, optimization, etc.)
 
-### [Code Data Science](https://github.com/yang-zhang/code-data-science/)
+### TODO [Code Data Science](https://github.com/yang-zhang/code-data-science/)
 Tutorials, demos, and tests on using software to solve data science problems.
 
 ### [Kaggle](https://github.com/yang-zhang/kaggle)
