@@ -1,0 +1,2 @@
+- Videos
+  - [Nuts and Bolts of Applying Deep Learning (Andrew Ng)](https://www.youtube.com/watch?v=F1ka6a13S9I)
