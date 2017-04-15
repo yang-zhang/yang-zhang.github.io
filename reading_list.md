@@ -1,2 +1,8 @@
+- Articles
+  - [How to improve your reading and understanding of code?](http://stackoverflow.com/questions/1307790/how-to-improve-your-reading-and-understanding-of-code)
+    - Take a project (this can be a work project, personal project, open source project, whatever), and start refactoring.
+    - ... testing and refactoring. You cannot say: "I understand this code" until you know how to break it with a test.
+    - Don't just read open-source code, join one.
+    - Other than simple experience leading to reading code better, I suggest attaching a **debugger** to the application, add some break points, and analyze data as it goes through the system. That way you KNOW what is going on, instead of presuming (by logic or any other means) what is going on.
 - Videos
   - [Nuts and Bolts of Applying Deep Learning (Andrew Ng)](https://www.youtube.com/watch?v=F1ka6a13S9I)
