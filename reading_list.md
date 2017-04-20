@@ -6,3 +6,4 @@
     - Other than simple experience leading to reading code better, I suggest attaching a **debugger** to the application, add some break points, and analyze data as it goes through the system. That way you KNOW what is going on, instead of presuming (by logic or any other means) what is going on.
 - Videos
   - [Nuts and Bolts of Applying Deep Learning (Andrew Ng)](https://www.youtube.com/watch?v=F1ka6a13S9I)
+    - Read 20 papers and implement
