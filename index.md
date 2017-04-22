@@ -9,6 +9,7 @@ layout: default
 Setup, configurations, and productivity tools for data science: Docker, Conda, Jupyter, Git, etc.
 ### [Correlating Data - Python and R](https://github.com/yang-zhang/ds-math/blob/master/correlating_data_python_r.ipynb)
 Calculating various correlation measurements between numerical and categorical data with Python and R implementations side by side for comparison: correlation coefficient, chi-square test, mutual information, t-test, anova.
+### [Ultimate `numpy.newaxis` Notebook](https://github.com/yang-zhang/code-data-science/blob/master/numpy_newaxis.ipynb)
 ### [Data Sciencne Utility Functions](https://yang-zhang.github.io/ds-utils/)
 Data science utility functions in Python including explorative analysis, statistics, math functions, preprocessing, etc.
 ### [Minimum Coins Using Dynamic Programming](https://github.com/yang-zhang/ds-math/blob/master/optimization/minimum_coins_dynamic_programming.ipynb)
