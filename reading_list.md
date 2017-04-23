@@ -13,4 +13,9 @@
       - https://dl.dropboxusercontent.com/u/19557502/hugo_dlss.pdf
       - Universal approximation theorem
       - Empirical (structural) risk minimization
-    
+
+-----
+
+[View Source](https://github.com/yang-zhang/yang-zhang.github.io)
+
+[GitHub](https://github.com/yang-zhang)
