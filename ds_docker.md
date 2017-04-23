@@ -47,4 +47,4 @@ Note that the `$PYTHONPATH` is updated in the container to include the local pac
 ---
 [View Source](https://github.com/yang-zhang/yang-zhang.github.io)
 
-[GitHub Repositories](https://github.com/yang-zhang)
+[GitHub](https://github.com/yang-zhang)
