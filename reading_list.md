@@ -9,3 +9,8 @@
   - [Deep Learning School](https://www.bayareadlschool.org/)
     - [Nuts and Bolts of Applying Deep Learning (Andrew Ng)](https://www.youtube.com/watch?v=F1ka6a13S9I)
       - Read 20 papers and implement
+    - Hugo Larochelle
+      - https://dl.dropboxusercontent.com/u/19557502/hugo_dlss.pdf
+      - Universal approximation theorem
+      - Empirical (structural) risk minimization
+    
