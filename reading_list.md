@@ -15,6 +15,7 @@
       - Universal approximation theorem
       - Empirical (structural) risk minimization
       - torch, theano, tensorflow
+      - Initialization: can't-do's
 
 -----
 
