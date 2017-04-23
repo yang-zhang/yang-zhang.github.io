@@ -17,6 +17,8 @@
       - torch, theano, tensorflow
       - Initialization: can't-do's
       - Baysian Optimization for model selection
+      - Normalization - not to binary data
+      - Decay of learning rate 
 
 -----
 
