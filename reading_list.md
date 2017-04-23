@@ -14,6 +14,7 @@
       - [Slides](https://dl.dropboxusercontent.com/u/19557502/hugo_dlss.pdf)
       - Universal approximation theorem
       - Empirical (structural) risk minimization
+      - torch, theano, tensorflow
 
 -----
 
