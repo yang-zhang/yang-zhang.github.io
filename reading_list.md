@@ -20,7 +20,11 @@
       - Normalization - not to binary data
       - Decay of learning rate - manual way
       - How-to check gradient implementation
-      - **Debugging on small dataset - make sure can overfit very small dataset (~50 samples)**.
+      - **Debugging on small dataset - make sure can overfit very small dataset (~50 samples)**
+      - Dropout usually 0.5
+      - Batch normalization: when used dropout is less useful.
+    - Andrej Karpathy
+      - [Slides](https://docs.google.com/presentation/d/1Q1CmVVnjVJM_9CDk3B8Y6MWCavZOtiKmOLQ0XB7s9Vg/edit?usp=sharing)
       - 
 
 -----
