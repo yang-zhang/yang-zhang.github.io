@@ -12,13 +12,16 @@
       - Read 20 papers and implement
     - Hugo Larochelle
       - [Slides](https://dl.dropboxusercontent.com/u/19557502/hugo_dlss.pdf)
-      - Universal approximation theorem
+      - Universal approximation theorem - about single layer model
       - Empirical (structural) risk minimization
       - torch, theano, tensorflow
       - Initialization: can't-do's
-      - Baysian Optimization for model selection
+      - Baysian Optimization for model selection is mentioned
       - Normalization - not to binary data
       - Decay of learning rate - manual way
+      - How-to check gradient implementation
+      - **Debugging on small dataset - make sure can overfit very small dataset (~50 samples)**.
+      - 
 
 -----
 
