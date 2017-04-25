@@ -8,6 +8,7 @@
   - [Wiki - Backpropagation](https://en.wikipedia.org/wiki/Backpropagation)
   - [Why Does Unsupervised Pre-training Help Deep Learning?](http://www.jmlr.org/papers/volume11/erhan10a/erhan10a.pdf)
   - [Effectively Using Matplotlib](http://pbpython.com/effective-matplotlib.html)
+    - You can see which ones are available on your system using `plt.style.available`. Using a style is as simple as: `plt.style.use('ggplot')`.
 - Videos
   - [Deep Learning School](https://www.bayareadlschool.org/)
     - [Nuts and Bolts of Applying Deep Learning (Andrew Ng)](https://www.youtube.com/watch?v=F1ka6a13S9I)
