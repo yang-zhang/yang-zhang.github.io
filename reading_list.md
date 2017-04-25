@@ -10,6 +10,8 @@
   - [Effectively Using Matplotlib](http://pbpython.com/effective-matplotlib.html)
     - You can see which ones are available on your system using `plt.style.available`. Using a style is as simple as: `plt.style.use('ggplot')`.
     - I recommend getting in the habit of doing this ... `fig, ax = plt.subplots()` ...
+    - `fig, (ax0, ax1) = plt.subplots(nrows=1,ncols=2, sharey=True, figsize=(7, 4))`
+    - `fig.canvas.get_supported_filetypes()`
 - Videos
   - [Deep Learning School](https://www.bayareadlschool.org/)
     - [Nuts and Bolts of Applying Deep Learning (Andrew Ng)](https://www.youtube.com/watch?v=F1ka6a13S9I)
