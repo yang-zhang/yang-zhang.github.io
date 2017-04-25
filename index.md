@@ -15,6 +15,8 @@ Calculating various correlation measurements between numerical and categorical d
 Data science utility functions in Python including explorative analysis, statistics, math functions, preprocessing, etc.
 ### [Minimum Coins Using Dynamic Programming](https://github.com/yang-zhang/ds-math/blob/master/optimization/minimum_coins_dynamic_programming.ipynb)
 ### [Model Stacking](https://github.com/yang-zhang/code-data-science/blob/master/model_stacking.ipynb)
+### [Pseudo Labeling](https://github.com/yang-zhang/deep-learning/blob/master/pseudo_labeling.ipynb)
+### [Southpark Scripts RNN](https://github.com/yang-zhang/deep-learning/blob/master/southpark_rnn.ipynb)
 ### [SVD PCA Demo](https://github.com/yang-zhang/ds-math/blob/master/linear_algebra/from_svd_to_pca_example.ipynb)
 ### [Encoding Categorical Variables](https://github.com/yang-zhang/code-data-science/blob/master/encoding_categorical_features.ipynb)
 ### [Deep Learning](https://yang-zhang.github.io/deep-learning/)
