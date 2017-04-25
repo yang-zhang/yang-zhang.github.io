@@ -7,6 +7,7 @@
   - [The Best Sources to Study Machine Learning and AI: Quora Session Highlight - Ben Hamner, Kaggle CTO](http://blog.kaggle.com/2017/04/17/the-best-sources-to-study-machine-learning-and-ai-with-ben-hamner-kaggle-cto/)
   - [Wiki - Backpropagation](https://en.wikipedia.org/wiki/Backpropagation)
   - [Why Does Unsupervised Pre-training Help Deep Learning?](http://www.jmlr.org/papers/volume11/erhan10a/erhan10a.pdf)
+  - [Effectively Using Matplotlib](http://pbpython.com/effective-matplotlib.html)
 - Videos
   - [Deep Learning School](https://www.bayareadlschool.org/)
     - [Nuts and Bolts of Applying Deep Learning (Andrew Ng)](https://www.youtube.com/watch?v=F1ka6a13S9I)
