@@ -32,6 +32,8 @@
     - Andrej Karpathy
       - [Slides](https://docs.google.com/presentation/d/1Q1CmVVnjVJM_9CDk3B8Y6MWCavZOtiKmOLQ0XB7s9Vg/edit?usp=sharing)
       - 
+   - [Hardcore data science in practice - Mikio Braun (Zalando SE) ](https://www.safaribooksonline.com/library/view/strata-hadoop/9781491944639/video249083.html)
+      - Microservice as solution to data science v.s. engineering.
 
 -----
 
