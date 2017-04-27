@@ -10,6 +10,8 @@ Setup, configurations, and productivity tools for data science: Docker, Conda, J
 ### [Correlating Data - Python and R](https://github.com/yang-zhang/ds-math/blob/master/correlating_data_python_r.ipynb)
 Calculating various correlation measurements between numerical and categorical data with Python and R implementations side by side for comparison: correlation coefficient, chi-square test, mutual information, t-test, anova.
 ### [Ultimate `numpy.newaxis` Notebook](https://github.com/yang-zhang/code-data-science/blob/master/numpy_newaxis.ipynb)
+### [Deep Learning](https://yang-zhang.github.io/deep-learning/)
+Deep Learning demos and experiments.
 ### [Reading Notes](reading_list.md)
 ### [Data Sciencne Utility Functions](https://yang-zhang.github.io/ds-utils/)
 Data science utility functions in Python including explorative analysis, statistics, math functions, preprocessing, etc.
@@ -19,8 +21,6 @@ Data science utility functions in Python including explorative analysis, statist
 ### [Southpark Scripts RNN](https://github.com/yang-zhang/deep-learning/blob/master/southpark_rnn.ipynb)
 ### [SVD PCA Demo](https://github.com/yang-zhang/ds-math/blob/master/linear_algebra/from_svd_to_pca_example.ipynb)
 ### [Encoding Categorical Variables](https://github.com/yang-zhang/code-data-science/blob/master/encoding_categorical_features.ipynb)
-### [Deep Learning](https://yang-zhang.github.io/deep-learning/)
-Deep Learning demos and experiments.
 
 <!---
 ### TODO 
