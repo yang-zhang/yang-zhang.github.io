@@ -12,6 +12,7 @@ sss- Articles
     - I recommend getting in the habit of doing this ... `fig, ax = plt.subplots()` ...
     - `fig, (ax0, ax1) = plt.subplots(nrows=1,ncols=2, sharey=True, figsize=(7, 4))`
     - `fig.canvas.get_supported_filetypes()`
+  - [The amazing power of word vectors](https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/): word2vec explained well.
 - Videos
   - [Deep Learning School](https://www.bayareadlschool.org/)
     - Nuts and Bolts of Applying Deep Learning - Andrew Ng
@@ -40,10 +41,8 @@ sss- Articles
         - Sentences: RNN
         - Multiple sentences: Dynamic memory networks
       - Distributional similarity; Cooccurence matrix
-      - 
       
-   - [Hardcore data science in practice - Mikio Braun (Zalando SE) ](https://www.safaribooksonline.com/library/view/strata-hadoop/9781491944639/video249083.html)
-      - Microservice as solution to data science v.s. engineering.
+   - [Hardcore data science in practice - Mikio Braun (Zalando SE) ](https://www.safaribooksonline.com/library/view/strata-hadoop/9781491944639/video249083.html): DS v.s. Data Engineering; Mixed team and Microservice as a solution.
 
 -----
 
