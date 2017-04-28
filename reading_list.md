@@ -1,4 +1,4 @@
-- Articles
+sss- Articles
   - [How to improve your reading and understanding of code?](http://stackoverflow.com/questions/1307790/how-to-improve-your-reading-and-understanding-of-code)
     - Take a project (this can be a work project, personal project, open source project, whatever), and start refactoring.
     - ... testing and refactoring. You cannot say: "I understand this code" until you know how to break it with a test.
@@ -35,6 +35,12 @@
       - 
     - DL for NLP - Richard Socherf
       - [Slides](https://media.wix.com/ugd/142eb4_7581cfcf090e4e31a52599315f77c648.pdf)
+      - Outline
+        - Words: Word2vec, Glove
+        - Sentences: RNN
+        - Multiple sentences: Dynamic memory networks
+      - Distributional similarity; Cooccurence matrix
+      - 
       
    - [Hardcore data science in practice - Mikio Braun (Zalando SE) ](https://www.safaribooksonline.com/library/view/strata-hadoop/9781491944639/video249083.html)
       - Microservice as solution to data science v.s. engineering.
