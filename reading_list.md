@@ -14,9 +14,10 @@
     - `fig.canvas.get_supported_filetypes()`
 - Videos
   - [Deep Learning School](https://www.bayareadlschool.org/)
-    - [Nuts and Bolts of Applying Deep Learning (Andrew Ng)](https://www.youtube.com/watch?v=F1ka6a13S9I)
+    - Nuts and Bolts of Applying Deep Learning - Andrew Ng
+      - [video](https://www.youtube.com/watch?v=F1ka6a13S9I)
       - Read 20 papers and implement
-    - Hugo Larochelle
+    - Introduction to Feedforward Neural Networks - Hugo Larochelle
       - [Slides](https://dl.dropboxusercontent.com/u/19557502/hugo_dlss.pdf)
       - Universal approximation theorem - about single layer model
       - Empirical (structural) risk minimization
@@ -29,9 +30,12 @@
       - **Debugging on small dataset - make sure can overfit very small dataset (~50 samples)**
       - Dropout usually 0.5
       - Batch normalization: when used dropout is less useful.
-    - Andrej Karpathy
+    - Deep Learning for Computer Vision - Andrej Karpathy
       - [Slides](https://docs.google.com/presentation/d/1Q1CmVVnjVJM_9CDk3B8Y6MWCavZOtiKmOLQ0XB7s9Vg/edit?usp=sharing)
       - 
+    - DL for NLP - Richard Socherf
+      - [Slides](https://media.wix.com/ugd/142eb4_7581cfcf090e4e31a52599315f77c648.pdf)
+      
    - [Hardcore data science in practice - Mikio Braun (Zalando SE) ](https://www.safaribooksonline.com/library/view/strata-hadoop/9781491944639/video249083.html)
       - Microservice as solution to data science v.s. engineering.
 
