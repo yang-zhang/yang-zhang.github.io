@@ -9,6 +9,8 @@ layout: default
 Setup, configurations, and productivity tools for data science: Docker, Conda, Jupyter, Git, etc.
 ### [Correlating Data - Python and R](https://github.com/yang-zhang/ds-math/blob/master/correlating_data_python_r.ipynb)
 Calculating various correlation measurements between numerical and categorical data with Python and R implementations side by side for comparison: correlation coefficient, chi-square test, mutual information, t-test, anova.
+### [Chain Rule of Derivatives](https://github.com/yang-zhang/ds-math/blob/master/chain_rule.ipynb)
+Examples of chain rule of derivatives for high dimensional functions.
 ### [Ultimate `numpy.newaxis` Notebook](https://github.com/yang-zhang/code-data-science/blob/master/numpy_newaxis.ipynb)
 ### [Deep Learning](https://yang-zhang.github.io/deep-learning/)
 Deep Learning demos and experiments.
