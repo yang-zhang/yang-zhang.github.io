@@ -1,4 +1,4 @@
-sss- Articles
+- Articles
   - [How to improve your reading and understanding of code?](http://stackoverflow.com/questions/1307790/how-to-improve-your-reading-and-understanding-of-code)
     - Take a project (this can be a work project, personal project, open source project, whatever), and start refactoring.
     - ... testing and refactoring. You cannot say: "I understand this code" until you know how to break it with a test.
