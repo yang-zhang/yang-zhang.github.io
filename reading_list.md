@@ -13,6 +13,8 @@
     - `fig, (ax0, ax1) = plt.subplots(nrows=1,ncols=2, sharey=True, figsize=(7, 4))`
     - `fig.canvas.get_supported_filetypes()`
   - [The amazing power of word vectors](https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/): word2vec explained well.
+- Books
+  - [Python for Scientists and Engineers](http://pythonforengineers.com/python-for-scientists-and-engineers/)
 - Videos
   - [Deep Learning School](https://www.bayareadlschool.org/)
     - Nuts and Bolts of Applying Deep Learning - Andrew Ng
@@ -33,7 +35,6 @@
       - Batch normalization: when used dropout is less useful.
     - Deep Learning for Computer Vision - Andrej Karpathy
       - [Slides](https://docs.google.com/presentation/d/1Q1CmVVnjVJM_9CDk3B8Y6MWCavZOtiKmOLQ0XB7s9Vg/edit?usp=sharing)
-      - 
     - DL for NLP - Richard Socherf
       - [Slides](https://media.wix.com/ugd/142eb4_7581cfcf090e4e31a52599315f77c648.pdf)
       - Outline
