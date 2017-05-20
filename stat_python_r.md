@@ -6,9 +6,11 @@ It is organized by the problems to solve, each with an example of the problem, t
 A, B, C represent three different versions of a eCommerce website.
 
 ## Tests of proportions
+There are problems that concern single proportion and multiple proportions.
+- An example of a single proportion: the proportion of visitors to your website that clicked "Buy Now" (e.g., a 3% click rate).
+- An example of multiple proportions: the proportions of visitors to your website from different countries (e.g., 60% percent US, 30% UK, 10% DE).
 
 ### Single proportion
-
 #### A test 
 526 out of 1000 people clicked in A. How confident are you when you say that the click rate is about 50%? 
 
@@ -22,7 +24,7 @@ A, B, C represent three different versions of a eCommerce website.
 
 How confident are you when you say that click rates are about the same?
 
-### Multiple proportion
+### Multiple proportions
 
 #### A test
 A: 243 from USA; 98 from UK; 65 from DE.
