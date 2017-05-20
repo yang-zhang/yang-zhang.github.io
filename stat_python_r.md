@@ -59,5 +59,6 @@ is the averge money spent different?
 
 
 
-
-[notebook](todo)
+References:
+- to add
+- my notebook: todo 
