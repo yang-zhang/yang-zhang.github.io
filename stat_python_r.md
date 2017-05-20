@@ -1,4 +1,4 @@
-# Statistics cheatsheet with Python and R
+# Statistical Tests Cheatsheet with Python and R
 
 This is a cheatsheet for statistical tests and how to do them in Python and in R. 
 It is organized by the problems to solve, each with an example of the problem, the Python solution, and the R solution.
@@ -30,13 +30,15 @@ TODO: what's the question?
 #### AB test
 - A: 243 from USA; 98 from UK; 65 from DE;
 - B: 235 from USA; 97 from UK; 59 from DE;
-Is the test done properly in terms of testing in similar environments?
+
+is the test done properly in terms of testing in similar environments?
 
 #### ABC test
 - A: 243 from USA; 98 from UK; 65 from DE;
 - B: 235 from USA; 97 from UK; 59 from DE;
 - C: 229 from USA; 90 from UK; 67 from DE;
-Is the test done properly in terms of testing in similar environments?
+
+is the test done properly in terms of testing in similar environments?
 
 
 ## Tests of mean
@@ -48,6 +50,7 @@ Given money spent from 1000 customers, is the averge money spent $50?
 Given 
 - money spent from 1000 customers in A;
 - money spent from 990 customers in B;
+
 is the averge money spent different?
 
 #### ABC test
@@ -55,6 +58,7 @@ Given
 - money spent from 1000 customers in A;
 - money spent from 990 customers in B;
 - money spent from 1012 customers in C;
+
 is the averge money spent different?
 
 
