@@ -15,7 +15,7 @@ There are problems that concern single proportion and multiple proportions.
 #### A test 
 Given 526 out of 1000 people clicked in A, how confidently do you say that the click rate is 52.6%? 
 
-##### z
+##### ztest
 
 ```Python
 >>> import statsmodels.stats.proportion
@@ -50,7 +50,11 @@ Given:
 how confidently do you when you say that click rates are about the same?
 
 #####
-
+```Python
+>>> import statsmodels.stats.proportion
+>>> statsmodels.stats.proportion.proportions_ztest([435, 438], [1025, 998])
+(-0.65775309403384319, 0.51069679938649315)
+```
 
 ##### 
 ```R
