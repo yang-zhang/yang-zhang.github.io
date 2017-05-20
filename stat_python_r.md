@@ -19,13 +19,15 @@ A, B, C represent three different versions of a eCommerce website.
 - 435 out of 1025 clicked in A; 
 - 418 out of 998 clicked in B;  
 - 412 out of 990 clicked in C;
+
 How confident are you when you say that click rates are about the same?
 
 ### Multiple proportion
 
 #### A test
-A: 243 from USA; 98 from UK; 65 from DE;
-TODO: what's the question?
+A: 243 from USA; 98 from UK; 65 from DE.
+
+I don't know what question you have?
 
 #### AB test
 Given:
