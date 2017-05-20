@@ -28,12 +28,14 @@ A: 243 from USA; 98 from UK; 65 from DE;
 TODO: what's the question?
 
 #### AB test
+Given:
 - A: 243 from USA; 98 from UK; 65 from DE;
 - B: 235 from USA; 97 from UK; 59 from DE;
 
 is the test done properly in terms of testing in similar environments?
 
 #### ABC test
+Given:
 - A: 243 from USA; 98 from UK; 65 from DE;
 - B: 235 from USA; 97 from UK; 59 from DE;
 - C: 229 from USA; 90 from UK; 67 from DE;
@@ -47,14 +49,14 @@ is the test done properly in terms of testing in similar environments?
 Given money spent from 1000 customers, is the averge money spent $50?
 
 #### AB test
-Given 
+Given:
 - money spent from 1000 customers in A;
 - money spent from 990 customers in B;
 
 is the averge money spent different?
 
 #### ABC test
-Given
+Given:
 - money spent from 1000 customers in A;
 - money spent from 990 customers in B;
 - money spent from 1012 customers in C;
