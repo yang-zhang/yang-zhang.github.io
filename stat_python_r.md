@@ -4,6 +4,8 @@ This is a cheatsheet for statistical tests that I need to do and how to do them 
 It is organized by the problems to solve, each with an example of the problem, the Python solution, and the R solution.
 
 A, B, C represent three different versions of a eCommerce website.
+- [Tests of proportions](#tests-of-proportions)
+- [Tests of means](#tests-of-means)
 
 ## Tests of proportions
 There are problems that concern single proportion and multiple proportions.
@@ -183,7 +185,7 @@ Given:
 is the test done properly in terms of testing in similar environments?
 
 
-## Tests of mean
+## Tests of means
 
 #### A test
 Given money spent from 1000 customers, is the averge money spent $50?
@@ -215,3 +217,6 @@ References:
 - https://github.com/yang-zhang/ds-math/blob/master/correlating_data_python_r.ipynb
 - 
 
+---
+[View Source](https://github.com/yang-zhang/yang-zhang.github.io/stat_python_r.md)
+[GitHub](https://github.com/yang-zhang)
