@@ -186,13 +186,36 @@ Equivalently using the statsmodels package.
 >>> statsmodels.stats.proportion.proportions_ztest(clicking_visitors, all_visitors, value=p_hypo, prop_var=p_hypo)
 (1.6443843832875589, 0.10009682885123182)
 ```
+Check one-side case:
+```py
+>>> single_proportion_ztest(x, n, p_hypo=p_hypo, prop_var=None, one_side=True)
+(1.6466121098225726, 0.049818899873914746)
+>>> statsmodels.stats.proportion.proportions_ztest(clicking_visitors, all_visitors, value=p_hypo, alternative='larger')
+(1.6466121098225726, 0.049818899873914739)
+```
 
 **R**
 ```r
+clicking_visitors <- 526
+all_visitors <- 1000
+x <- clicking_visitors
+n <- all_visitors
+p_hypo <- 0.5
+p_hat <- x/n
+one_side <- FALSE
+prop_var <- p_hat
+standard_error <- sqrt(prop_var*(1-prop_var)/n)
+z = (p_hat-p_hypo)/standard_error
+p_value <- 1 - pnorm(abs(z))
+if (one_side == FALSE){
+  p_value = 2*p_value
+}
+c(z, p_value)
 ```
 
 Make into a function:
 ```r
+
 ```
 
 ###### prop-test
