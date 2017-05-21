@@ -1,6 +1,6 @@
 # Statistical Tests Cheatsheet with Python and R
 
-This is a cheatsheet for statistical tests that I need to do and how to do them in Python and R, respectively. 
+This is a cheatsheet for statistical tests that I need to do and how to do them in Python and/or R, respectively. (I try to do both Python and R whenever possible.)
 It is organized by the problems to solve, each with an example of the problem, the Python solution, and the R solution.
 
 A, B, C represent three different versions of a eCommerce website. 
