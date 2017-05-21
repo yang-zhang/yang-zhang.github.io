@@ -17,13 +17,13 @@ Table of Contents
 		- [AB test](#ab-test)
 		- [ABC test](#abc-test)
 	- [Multiple proportions](#multiple-proportions)
-		- [A test](#a-test-2)
-		- [AB test](#ab-test-2)
-		- [ABC test](#abc-test-2)
+		- [A test](#a-test-1)
+		- [AB test](#ab-test-1)
+		- [ABC test](#abc-test-1)
 - [Tests of means](#tests-of-means)
-	- [A test](#a-test-3)
-	- [AB test](#ab-test-3)
-	- [ABC test](#abc-test-3)
+	- [A test](#a-test-2)
+	- [AB test](#ab-test-2)
+	- [ABC test](#abc-test-2)
 	
 
 
