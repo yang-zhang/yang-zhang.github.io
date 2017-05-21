@@ -45,30 +45,24 @@ Question: what is the confidence interval of the click rate?
 >>> clicking_visitors = 526
 >>> all_visitors = 1000
 >>> confidence_interval_size = 0.95
->>> 
 >>> x = clicking_visitors
 >>> n = all_visitors
->>> 
 >>> p_hat = x/n
 >>> p_hat
 0.526
->>> 
 >>> import numpy as np
 >>> standard_error = np.sqrt(p_hat * (1-p_hat) / n)
 >>> standard_error
 0.015789996833438569
->>> 
 >>> alpha = 1 - confidence_interval_size
 >>> alpha
 0.050000000000000044
 >>> 1 - alpha/2
 0.975
->>> 
 >>> import scipy.stats
 >>> z_critical = scipy.stats.norm.ppf(1 - alpha/2)
 >>> z_critical
 1.959963984540054
->>> 
 >>> confidence_interval = p_hat - z_critical*standard_error, p_hat + z_critical*standard_error
 >>> confidence_interval
 (0.49505217489045894, 0.55694782510954111)
@@ -91,6 +85,7 @@ Make into a function:
 >>> find_confidence_interval(x=clicking_visitors, n=all_visitors, confidence_interval_size=0.95)
 (0.49505217489045894, 0.55694782510954111)
 ```
+
 ###### R
 ```r
 ```
