@@ -14,10 +14,16 @@ Table of Contents
 		- [A test](#a-test)
 			- [Confidence interval](#confidence-interval)
 			- [Hypothesis test](#hypothesis-test)
+		- [AB test](#ab-test)
+		- [ABC test](#abc-test)
+	- [Multiple proportions](#multiple-proportions)
+		- [A test](#a-test-2)
+		- [AB test](#ab-test-2)
+		- [ABC test](#abc-test-2)
 - [Tests of means](#tests-of-means)
-	- [A test](#a-test)
-	- [AB test](#ab-test)
-	- [ABC test](#abc-test)
+	- [A test](#a-test-3)
+	- [AB test](#ab-test-3)
+	- [ABC test](#abc-test-3)
 	
 
 
