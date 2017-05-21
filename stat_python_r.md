@@ -28,16 +28,17 @@ Table of Contents
 
 
 ## Tests of proportions
-There are problems that concern single proportion and multiple proportions.
+There are problems that concern single proportions and multiple proportions.
 - An example of single proportions: the percentage of visitors to your website that clicked "Buy Now" (e.g., a 3% click rate).
 - An example of multiple proportions: the percentages of visitors to your website from different countries (e.g., 60% US, 30% UK, 10% DE).
 
 ### Single proportions
 
 #### A test 
-Given 526 out of 1000 people clicked in A.
+Data say 526 out of 1000 visitors to your website clicked.
 
 ##### Confidence interval
+Question: what is the confidence interval of the click rate?
 
 ###### Python
 ```py
@@ -90,12 +91,19 @@ Make into a function:
 (0.49505217489045894, 0.55694782510954111)
 ```
 ###### R
-
+```r
+```
 
 ##### Hypothesis test 
-how confidently do you say that the click rate is about 50%? 
+Question: is the click rate about 50%?
 
-###### 
+###### Python
+```py
+```
+
+##### R
+```r
+```
 
 ##### ztest
 
