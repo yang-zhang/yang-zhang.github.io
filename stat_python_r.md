@@ -4,8 +4,22 @@ This is a cheatsheet for statistical tests that I need to do and how to do them 
 It is organized by the problems to solve, each with an example of the problem, the Python solution, and the R solution.
 
 A, B, C represent three different versions of a eCommerce website.
+- A test: test a single case (e.g., Website Version A);
+- AB test: test on two contrasting cases (e.g.,Website Version A v.s. B);
+- ABC test: test on three cases (e.g., Website Version A, B, and C). This can be generalized to more cases.
+
+Table of Contents
 - [Tests of proportions](#tests-of-proportions)
+	- [Single proportions](#single-proportions)
+		- [A test](#a-test)
+			- [Confidence interval](#confidence-interval)
+			- [Hypothesis test](#hypothesis-test)
 - [Tests of means](#tests-of-means)
+	- [A test](#a-test)
+	- [AB test](#ab-test)
+	- [ABC test](#abc-test)
+	
+
 
 ## Tests of proportions
 There are problems that concern single proportion and multiple proportions.
@@ -72,7 +86,7 @@ Make into a function:
 ###### R
 
 
-##### Hypothesis test
+##### Hypothesis test 
 how confidently do you say that the click rate is about 50%? 
 
 ###### 
