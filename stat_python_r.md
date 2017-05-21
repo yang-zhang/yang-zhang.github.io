@@ -131,7 +131,7 @@ Make into a function:
 Question: There was a hypothesis of the click rate being 50%. What do the data say about it?
 
 ###### z-test
-In Python:
+**Python**
 ```py
 >>> clicking_visitors = 526
 >>> all_visitors = 1000
@@ -187,7 +187,7 @@ Equivalently using the statsmodels package.
 (1.6443843832875589, 0.10009682885123182)
 ```
 
-In R:
+**R**
 ```r
 ```
 
