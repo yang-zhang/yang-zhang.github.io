@@ -14,6 +14,8 @@ Table of Contents
 		- [A test](#a-test)
 			- [Confidence interval](#confidence-interval)
 			- [Hypothesis test](#hypothesis-test)
+				-[z-test](#z-test)
+				-[prop-test](#prop-test)
 		- [AB test](#ab-test)
 		- [ABC test](#abc-test)
 	- [Multiple proportions](#multiple-proportions)
@@ -129,7 +131,7 @@ Make into a function:
 Question: There was a hypothesis of the click rate being 50%. What do the data say about it?
 
 ###### z-test
-####### Python
+In Python:
 ```py
 >>> clicking_visitors = 526
 >>> all_visitors = 1000
@@ -185,10 +187,7 @@ Equivalently using the statsmodels package.
 (1.6443843832875589, 0.10009682885123182)
 ```
 
-
-
-
-####### R
+In R:
 ```r
 ```
 
@@ -197,7 +196,7 @@ Make into a function:
 ```
 
 ###### prop-test
-####### R
+In R
 ```R
 > clicking_visitors <- c(526)
 > all_visitors <- c(1000)
