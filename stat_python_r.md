@@ -1,12 +1,12 @@
 # Statistical Tests Cheatsheet with Python and R
 
-This is a cheatsheet for statistical tests that I need to do and how to do them in Python and in R. 
+This is a cheatsheet for statistical tests that I need to do and how to do them in Python and R, respectively. 
 It is organized by the problems to solve, each with an example of the problem, the Python solution, and the R solution.
 
-A, B, C represent three different versions of a eCommerce website.
-- A test: test a single case (e.g., Website Version A);
+A, B, C represent three different versions of a eCommerce website. 
+- A test: test on a single case (e.g., Website Version A);
 - AB test: test on two contrasting cases (e.g.,Website Version A v.s. B);
-- ABC test: test on three cases (e.g., Website Version A, B, and C). This can be generalized to more cases.
+- ABC test: test on three contrasting cases (e.g., Website Version A, B, and C). This can be generalized to more than three cases.
 
 Table of Contents
 - [Tests of proportions](#tests-of-proportions)
