@@ -24,8 +24,6 @@ Table of Contents
 	- [A test](#a-test-2)
 	- [AB test](#ab-test-2)
 	- [ABC test](#abc-test-2)
-	
-
 
 ## Tests of proportions
 There are problems that concern single proportions and multiple proportions.
@@ -88,6 +86,43 @@ Make into a function:
 
 ###### R
 ```r
+> clicking_visitors <- 526
+> all_visitors <- 1000
+> confidence_interval_size <- 0.95
+> x = clicking_visitors
+> n = all_visitors
+> p_hat = x/n
+> p_hat
+[1] 0.526
+> standard_error = sqrt(p_hat * (1-p_hat) / n)
+> alpha = 1 - confidence_interval_size
+> alpha
+[1] 0.05
+> 1 - alpha/2
+[1] 0.975
+> z_critical = qnorm(1 - alpha/2)
+> z_critical
+[1] 1.959964
+> confidence_interval <- c(p_hat - z_critical*standard_error, p_hat + z_critical*standard_error)
+> confidence_interval
+[1] 0.4950522 0.5569478
+```
+
+Make into a function:
+```r
+> find_confidence_interval <- function(x, n, confidence_interval_size) {
++     p_hat = x/n
++     standard_error = sqrt(p_hat * (1-p_hat) / n)
++     alpha = 1 - confidence_interval_size
++     z_critical = qnorm(1 - alpha/2)
++     confidence_interval <- c(p_hat - z_critical*standard_error, p_hat + z_critical*standard_error)
++     return(confidence_interval)
++     
++ }
+> clicking_visitors <- 526
+> all_visitors <- 1000
+> find_confidence_interval(x=clicking_visitors, n=all_visitors, confidence_interval_size=0.95)
+[1] 0.4950522 0.5569478
 ```
 
 ##### Hypothesis test 
