@@ -128,23 +128,76 @@ Make into a function:
 ##### Hypothesis test 
 Question: There was a hypothesis of the click rate being 50%. What do the data say about it?
 
-###### Python
+###### z-test
+####### Python
 ```py
+>>> clicking_visitors = 526
+>>> all_visitors = 1000
+>>> x = clicking_visitors
+>>> n = all_visitors
+>>> p_hypo = 0.5
+>>> p_hat = x/n
+>>> one_side = False
+>>> prop_var = p_hat
+>>> standard_error = np.sqrt(prop_var*(1-prop_var)/n)
+>>> z = (p_hat-p_hypo)/standard_error
+>>> p_value = 1 - scipy.stats.norm.cdf(abs(z))
+>>> if one_side == False:
+...     p_value *= 2
+... 
+>>> z, p_value
+(1.6466121098225726, 0.099637799747829492)
+```
+Make into a function:
+```py
+>>> def single_proportion_ztest(x, n, p_hypo=0.5, prop_var=None, one_side=False):
+...     p_hat = x/n
+...     if not prop_var:
+...         prop_var = p_hat
+...     standard_error = np.sqrt(prop_var*(1-prop_var)/n)
+...     z = (p_hat-p_hypo)/standard_error
+...     p_value = 1 - scipy.stats.norm.cdf(abs(z))
+...     if one_side == False:
+...         p_value *= 2
+...     return z, p_value  
+... 
+>>> x = clicking_visitors
+>>> n = all_visitors
+>>> single_proportion_ztest(x, n, p_hypo=p_hypo, prop_var=None, one_side=False)
+(1.6466121098225726, 0.099637799747829492)
+```
+Equivalently, you can use the function from the statsmodels package.
+```py
+>>> import statsmodels.stats.proportion
+>>> statsmodels.stats.proportion.proportions_ztest(clicking_visitors, all_visitors, value=p_hypo)
+(1.6466121098225726, 0.099637799747829478)
+```
+The above uses `p_hat` to . Alternatively we could use `p_hypo`.
+```py
+>>> p_hypo = 0.5
+>>> single_proportion_ztest(x, n, p_hypo=p_hypo, prop_var=p_hypo, one_side=False)
+(1.6443843832875589, 0.10009682885123183)
+```
+Equivalently using the statsmodels package.
+```py
+>>> import statsmodels.stats.proportion
+>>> statsmodels.stats.proportion.proportions_ztest(clicking_visitors, all_visitors, value=p_hypo, prop_var=p_hypo)
+(1.6443843832875589, 0.10009682885123182)
 ```
 
-##### R
+
+
+
+####### R
 ```r
 ```
 
-##### ztest
-
-```Python
->>> import statsmodels.stats.proportion
->>> statsmodels.stats.proportion.proportions_ztest(526, 1000, value=0.5)
-(1.6466121098225726, 0.099637799747829478)
+Make into a function:
+```r
 ```
 
-##### chisquare
+###### prop-test
+####### R
 ```R
 > clicking_visitors <- c(526)
 > all_visitors <- c(1000)
