@@ -13,7 +13,67 @@ There are problems that concern single proportion and multiple proportions.
 ### Single proportions
 
 #### A test 
-Given 526 out of 1000 people clicked in A, how confidently do you say that the click rate is 52.6%? 
+Given 526 out of 1000 people clicked in A.
+
+##### Confidence interval
+
+###### Python
+```py
+>>> clicking_visitors = 526
+>>> all_visitors = 1000
+>>> confidence_interval_size = 0.95
+>>> 
+>>> x = clicking_visitors
+>>> n = all_visitors
+>>> 
+>>> p_hat = x/n
+>>> print('p_hat:', p_hat)
+p_hat: 0.526
+>>> 
+>>> import numpy as np
+>>> standard_error = np.sqrt(p_hat * (1-p_hat) / n)
+>>> print('standard_error:', standard_error)
+standard_error: 0.0157899968334
+>>> 
+>>> alpha = 1 - confidence_interval_size
+>>> print('alpha:', alpha)
+alpha: 0.050000000000000044
+>>> print('1 - alpha/2:', 1 - alpha/2)
+1 - alpha/2: 0.975
+>>> 
+>>> import scipy.stats
+>>> z_critical = scipy.stats.norm.ppf(1 - alpha/2)
+>>> print('z_critical:', z_critical)
+z_critical: 1.95996398454
+>>> 
+>>> confidence_interval = p_hat - z_critical*standard_error, p_hat + z_critical*standard_error
+>>> print('confidence_interval:', confidence_interval)
+confidence_interval: (0.49505217489045894, 0.55694782510954111)
+```
+Make into a function:
+```py
+>>> import numpy as np
+>>> import scipy.stats
+>>> def find_confidence_interval(x, n, confidence_interval_size):
+...     p_hat = x/n
+...     standard_error = np.sqrt(p_hat * (1-p_hat) / n)
+...     alpha = 1 - confidence_interval_size
+...     z_critical = scipy.stats.norm.ppf(1 - alpha/2)
+...     confidence_interval = p_hat - z_critical*standard_error, p_hat + z_critical*standard_error
+...     return confidence_interval
+... 
+>>> clicking_visitors = 526
+>>> all_visitors = 1000
+>>> find_confidence_interval(x=clicking_visitors, n=all_visitors, confidence_interval_size=0.95)
+(0.49505217489045894, 0.55694782510954111)
+```
+###### R
+
+
+##### Hypothesis test
+how confidently do you say that the click rate is about 50%? 
+
+###### 
 
 ##### ztest
 
@@ -146,7 +206,7 @@ is the averge money spent about the same for A, B, and C?
 
 Codes:
 - [R](https://github.com/yang-zhang/ds-math/blob/master/stat_python_r_r.r)
-- [Python](https://github.com/yang-zhang/ds-math/blob/master/stat_python_r.ipynb)
+- [Python](https://github.com/yang-zhang/ds-math/blob/master/stat_python_r.py)
 
 References:
 - http://www.springer.com/us/book/9780387790534
