@@ -36,7 +36,7 @@ There are problems that concern single proportions and multiple proportions.
 Data say 526 out of 1000 visitors to your website clicked.
 
 ##### Confidence interval
-Question: what is the confidence interval of the click rate?
+Question: What is the confidence interval of the click rate?
 
 ###### Python
 ```py
@@ -126,7 +126,7 @@ Make into a function:
 ```
 
 ##### Hypothesis test 
-Question: is the click rate about 50%?
+Question: There was a hypothesis of the click rate being 50%. What do the data say about it?
 
 ###### Python
 ```py
