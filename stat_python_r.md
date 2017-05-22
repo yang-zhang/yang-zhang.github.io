@@ -188,7 +188,7 @@ Equivalently using the statsmodels package.
 ```
 Check one-side case:
 ```py
->>> single_proportion_ztest(x, n, p_hypo=p_hypo, prop_var=None, one_side=True)
+>>> single_proportion_ztest(x, n, p_hypo=p_hypo, one_side=True)
 (1.6466121098225726, 0.049818899873914746)
 >>> statsmodels.stats.proportion.proportions_ztest(clicking_visitors, all_visitors, value=p_hypo, alternative='larger')
 (1.6466121098225726, 0.049818899873914739)
@@ -196,37 +196,57 @@ Check one-side case:
 
 **R**
 ```r
-clicking_visitors <- 526
-all_visitors <- 1000
-x <- clicking_visitors
-n <- all_visitors
-p_hypo <- 0.5
-p_hat <- x/n
-one_side <- FALSE
-prop_var <- p_hat
-standard_error <- sqrt(prop_var*(1-prop_var)/n)
-z = (p_hat-p_hypo)/standard_error
-p_value <- 1 - pnorm(abs(z))
-if (one_side == FALSE){
-  p_value = 2*p_value
-}
-c(z, p_value)
+> clicking_visitors <- 526
+> all_visitors <- 1000
+> x <- clicking_visitors
+> n <- all_visitors
+> p_hypo <- 0.5
+> p_hat <- x/n
+> one_side <- FALSE
+> prop_var <- p_hat
+> standard_error <- sqrt(prop_var*(1-prop_var)/n)
+> z = (p_hat-p_hypo)/standard_error
+> p_value <- 1 - pnorm(abs(z))
+> if (!one_side){
++   p_value = 2*p_value
++ }
+> c(z, p_value)
+[1] 1.6466121 0.0996378
 ```
 
 Make into a function:
 ```r
-
+> single_proportion_ztest <- function(x, n, p_hypo=0.5, prop_var=NULL, one_side=FALSE) {
++   x <- clicking_visitors
++   n <- all_visitors
++   p_hypo <- 0.5
++   p_hat <- x/n
++   if (is.null(prop_var))
++     prop_var <- p_hat
++   standard_error <- sqrt(prop_var*(1-prop_var)/n)
++   z = (p_hat-p_hypo)/standard_error
++   p_value <- 1 - pnorm(abs(z))
++   if (!one_side)
++     p_value = 2*p_value
++   return(c(z, p_value))
++ }
+> clicking_visitors <- 526
+> all_visitors <- 1000
+> single_proportion_ztest(x=clicking_visitors, n=all_visitors, p_hypo=p_hypo, one_side=FALSE)
+[1] 1.6466121 0.0996378
+> single_proportion_ztest(x=clicking_visitors, n=all_visitors, p_hypo=p_hypo, prop_var=p_hypo, one_side=FALSE)
+[1] 1.6443844 0.1000968
+> single_proportion_ztest(x=clicking_visitors, n=all_visitors, p_hypo=p_hypo, one_side=TRUE)
+[1] 1.6466121 0.0498189
 ```
 
 ###### prop-test
-In R
-```R
-> clicking_visitors <- c(526)
-> all_visitors <- c(1000)
-> prop.test(clicking_visitors, all_visitors)
+```r
+> clicking_visitors <- 526
+> all_visitors <- 1000
+> prop.test(x=clicking_visitors, n=all_visitors, p=0.5)
 
-	1-sample proportions test with continuity
-	correction
+	1-sample proportions test with continuity correction
 
 data:  clicking_visitors out of all_visitors, null probability 0.5
 X-squared = 2.601, df = 1, p-value = 0.1068
