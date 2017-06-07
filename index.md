@@ -8,6 +8,7 @@ layout: default
 ### [Data Science Environment](https://yang-zhang.github.io/ds-env)
 Setup, configurations, and productivity tools for data science: Docker, Conda, Jupyter, Git, etc.
 ### [Statistical Tests Cheatsheet with Python and R](stat_python_r.md)
+### [Example of static v.s. dynamic scope](static_dynamic_scope.md)
 ### [Correlating Data - Python and R](https://github.com/yang-zhang/ds-math/blob/master/correlating_data_python_r.ipynb)
 Calculating various correlation measurements between numerical and categorical data with Python and R implementations side by side for comparison: correlation coefficient, chi-square test, mutual information, t-test, anova.
 ### [Chain Rule of Derivatives](https://github.com/yang-zhang/ds-math/blob/master/chain_rule.ipynb)
