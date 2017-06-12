@@ -1,4 +1,4 @@
-# Static v.s. Dynamic Scope Exmaple
+## Static v.s. Dynamic Scope Exmaple
 
 #### Example of static scope - C:
 ```c
@@ -45,3 +45,5 @@ Output:
 ```
 In func2=20
 ```
+
+[Back](./)
