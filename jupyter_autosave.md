@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 ---
 
 ## Why and how to automatically save Jupyter notebook to .py files
@@ -32,7 +32,4 @@ See [here](https://github.com/yang-zhang/ds-env/blob/master/docker/dockerfiles/y
 - http://stackoverflow.com/questions/17077494/how-do-i-convert-a-ipython-notebook-into-a-python-file-via-commandline
 - http://protips.maxmasnick.com/ipython-notebooks-automatically-export-py-and-html
 
----
-[View Source](https://github.com/yang-zhang/yang-zhang.github.io/index.md)
-
-[GitHub](https://github.com/yang-zhang)
+[Back](./)
