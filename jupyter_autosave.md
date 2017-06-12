@@ -1,7 +1,3 @@
----
-layout: default
----
-
 ## Why and how to automatically save Jupyter notebook to .py files
 
 ### Why save a jupyter notebook as a python file?
