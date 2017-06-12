@@ -1,5 +1,6 @@
 ---
 layout: default
+title: blog posts
 ---
 
 # Blog Posts
@@ -7,11 +8,7 @@ layout: default
 ### [Why and how to automatically save Jupyter notebook to .py files](jupyter_autosave.md)
 ### [Statistical Tests Cheatsheet with Python and R](stat_python_r.md)
 ### [Example of static v.s. dynamic scope](static_dynamic_scope.md)
-### [Deep Learning](https://yang-zhang.github.io/deep-learning/)
-Deep Learning demos and experiments.
 ### [Reading Notes](reading_list.md)
-
-
 
 <!---
 ### [Data Science Environment](https://yang-zhang.github.io/ds-env)
@@ -21,7 +18,6 @@ Calculating various correlation measurements between numerical and categorical d
 ### [Chain Rule of Derivatives](https://github.com/yang-zhang/ds-math/blob/master/chain_rule.ipynb)
 Examples of chain rule of derivatives for high dimensional functions.
 ### [Ultimate `numpy.newaxis` Notebook](https://github.com/yang-zhang/code-data-science/blob/master/numpy_newaxis.ipynb)
-
 ### [Data Sciencne Utility Functions](https://yang-zhang.github.io/ds-utils/)
 Data science utility functions in Python including explorative analysis, statistics, math functions, preprocessing, etc.
 ### [Minimum Coins Using Dynamic Programming](https://github.com/yang-zhang/ds-math/blob/master/optimization/minimum_coins_dynamic_programming.ipynb)
@@ -30,20 +26,17 @@ Data science utility functions in Python including explorative analysis, statist
 ### [Southpark Scripts RNN](https://github.com/yang-zhang/deep-learning/blob/master/southpark_rnn.ipynb)
 ### [SVD PCA Demo](https://github.com/yang-zhang/ds-math/blob/master/linear_algebra/from_svd_to_pca_example.ipynb)
 ### [Encoding Categorical Variables](https://github.com/yang-zhang/code-data-science/blob/master/encoding_categorical_features.ipynb)
-
+### [Deep Learning](https://yang-zhang.github.io/deep-learning/)
+Deep Learning demos and experiments.
 ### TODO 
 ### TODO [Scorer for log-scale]
 ### TODO [Visualization](https://github.com/yang-zhang/ds-utils/blob/master/ds_utils/visualization.py) 
 ## Repositories
 ### TODO [Data Science Math](https://yang-zhang.github.io/ds-math/)
 Tutorials, demos, and experiments on math problems in Data Science (probability, linear algebra, machine Learning, statistics, optimization, etc.)
-
 ### TODO [Code Data Science](https://github.com/yang-zhang/code-data-science/)
 Tutorials, demos, and tests on using software to solve data science problems.
-
 ### [Kaggle](https://github.com/yang-zhang/kaggle)
-Kaggle code.
+Kaggle code.--->
 
---->
-
-### [Map to my repositories](map.md)
+### [Map to repositories](map.md)
