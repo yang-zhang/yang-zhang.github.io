@@ -3,7 +3,7 @@
 This is a cheatsheet for statistical tests that I need to do and how to do them in Python and/or R, respectively. (I try to do both Python and R whenever possible.)
 It is organized by the problems to solve, each with an example of the problem, the Python solution, and the R solution.
 
-A, B, C represent three different versions of a eCommerce website. 
+A, B, C represent three different versions of a eCommerce website.
 - A test: test on a single case (e.g., Website Version A);
 - AB test: test on two contrasting cases (e.g.,Website Version A v.s. B);
 - ABC test: test on three contrasting cases (e.g., Website Version A, B, and C). This can be generalized to more than three cases.
@@ -34,7 +34,7 @@ There are problems that concern single proportions and multiple proportions.
 
 ### Single proportions
 
-#### A test 
+#### A test
 Data say 526 out of 1000 visitors to your website clicked.
 
 ##### Confidence interval
@@ -79,7 +79,7 @@ Make into a function:
 ...     z_critical = scipy.stats.norm.ppf(1 - alpha/2)
 ...     confidence_interval = p_hat - z_critical*standard_error, p_hat + z_critical*standard_error
 ...     return confidence_interval
-... 
+...
 >>> clicking_visitors = 526
 >>> all_visitors = 1000
 >>> find_confidence_interval(x=clicking_visitors, n=all_visitors, confidence_interval_size=0.95)
@@ -127,7 +127,7 @@ Make into a function:
 [1] 0.4950522 0.5569478
 ```
 
-##### Hypothesis test 
+##### Hypothesis test
 Question: There was a hypothesis of the click rate being 50%. What do the data say about it?
 
 ###### z-test
@@ -146,7 +146,7 @@ Question: There was a hypothesis of the click rate being 50%. What do the data s
 >>> p_value = 1 - scipy.stats.norm.cdf(abs(z))
 >>> if one_side == False:
 ...     p_value *= 2
-... 
+...
 >>> z, p_value
 (1.6466121098225726, 0.099637799747829492)
 ```
@@ -162,7 +162,7 @@ Make into a function:
 ...     if one_side == False:
 ...         p_value *= 2
 ...     return z, p_value  
-... 
+...
 >>> x = clicking_visitors
 >>> n = all_visitors
 >>> single_proportion_ztest(x, n, p_hypo=p_hypo, prop_var=None, one_side=False)
@@ -254,13 +254,13 @@ alternative hypothesis: true p is not equal to 0.5
 95 percent confidence interval:
  0.4945121 0.5572857
 sample estimates:
-    p 
-0.526 
+    p
+0.526
 ```
 
 #### AB test
 Given:
-- 435 out of 1025 clicked in A; 
+- 435 out of 1025 clicked in A;
 - 438 out of 998 clicked in B;
 
 how confidently do you when you say that click rates are about the same?
@@ -272,7 +272,7 @@ how confidently do you when you say that click rates are about the same?
 (-0.65775309403384319, 0.51069679938649315)
 ```
 
-##### 
+#####
 ```R
 > clicking_visitors <- c(435, 418)
 > all_visitors <- c(1025, 998)
@@ -288,14 +288,14 @@ alternative hypothesis: two.sided
 95 percent confidence interval:
  -0.03847633  0.04958147
 sample estimates:
-   prop 1    prop 2 
-0.4243902 0.4188377 
+   prop 1    prop 2
+0.4243902 0.4188377
 ```
 
 
 
 #### ABC test
-- 435 out of 1025 clicked in A; 
+- 435 out of 1025 clicked in A;
 - 418 out of 998 clicked in B;  
 - 412 out of 990 clicked in C;
 
@@ -313,8 +313,8 @@ data:  clicking_visitors out of all_visitors
 X-squared = 0.14624, df = 2, p-value = 0.9295
 alternative hypothesis: two.sided
 sample estimates:
-   prop 1    prop 2    prop 3 
-0.4243902 0.4188377 0.4161616 
+   prop 1    prop 2    prop 3
+0.4243902 0.4188377 0.4161616
 ```
 ### Multiple proportions
 
@@ -369,8 +369,3 @@ References:
 - https://www.r-bloggers.com/one-proportion-z-test-in-r/
 - http://knowledgetack.com/python/statsmodels/proportions_ztest/
 - https://github.com/yang-zhang/ds-math/blob/master/correlating_data_python_r.ipynb
-- 
-
----
-[View Source](https://github.com/yang-zhang/yang-zhang.github.io/stat_python_r.md)
-[GitHub](https://github.com/yang-zhang)
