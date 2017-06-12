@@ -1,4 +1,4 @@
-# Statistical Tests Cheatsheet with Python and R
+## Statistical Tests Cheatsheet with Python and R
 
 This is a cheatsheet for statistical tests that I need to do and how to do them in Python and/or R, respectively. (I try to do both Python and R whenever possible.)
 It is organized by the problems to solve, each with an example of the problem, the Python solution, and the R solution.
@@ -369,3 +369,5 @@ References:
 - https://www.r-bloggers.com/one-proportion-z-test-in-r/
 - http://knowledgetack.com/python/statsmodels/proportions_ztest/
 - https://github.com/yang-zhang/ds-math/blob/master/correlating_data_python_r.ipynb
+
+[Back](./)
