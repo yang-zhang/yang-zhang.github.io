@@ -1,4 +1,8 @@
-# Why and how to automatically save Jupyter notebook to .py files
+---
+layout: post
+---
+
+## Why and how to automatically save Jupyter notebook to .py files
 
 ### Why save a jupyter notebook as a python file?
 Because notebooks are hard to version control - try `git diff [YOUR_NOTEBOOK].ipynb` after a few changes and see the mess. 
