@@ -1,14 +1,11 @@
----
-title: blog posts
----
-
+# Blog posts
 ### [Simple steps to using docker for data science](ds_docker.md)
 ### [Why and how to automatically save Jupyter notebook to .py files](jupyter_autosave.md)
-### [Statistical Tests Cheatsheet with Python and R](stat_python_r.md)
+### [Statistical tests cheatsheet with Python and R](stat_python_r.md)
 ### [Example of static v.s. dynamic scope](static_dynamic_scope.md)
-### [Reading Notes](reading_list.md)
 
 <!---
+### [Reading Notes](reading_list.md)
 ### [Data Science Environment](https://yang-zhang.github.io/ds-env)
 Setup, configurations, and productivity tools for data science: Docker, Conda, Jupyter, Git, etc.
 ### [Correlating Data - Python and R](https://github.com/yang-zhang/ds-math/blob/master/correlating_data_python_r.ipynb)
@@ -26,15 +23,15 @@ Data science utility functions in Python including explorative analysis, statist
 ### [Encoding Categorical Variables](https://github.com/yang-zhang/code-data-science/blob/master/encoding_categorical_features.ipynb)
 ### [Deep Learning](https://yang-zhang.github.io/deep-learning/)
 Deep Learning demos and experiments.
-### TODO 
+### TODO
 ### TODO [Scorer for log-scale]
-### TODO [Visualization](https://github.com/yang-zhang/ds-utils/blob/master/ds_utils/visualization.py) 
+### TODO [Visualization](https://github.com/yang-zhang/ds-utils/blob/master/ds_utils/visualization.py)
 ## Repositories
 ### TODO [Data Science Math](https://yang-zhang.github.io/ds-math/)
 Tutorials, demos, and experiments on math problems in Data Science (probability, linear algebra, machine Learning, statistics, optimization, etc.)
 ### TODO [Code Data Science](https://github.com/yang-zhang/code-data-science/)
 Tutorials, demos, and tests on using software to solve data science problems.
 ### [Kaggle](https://github.com/yang-zhang/kaggle)
-Kaggle code.--->
-
+Kaggle code.
 ### [Map to repositories](map.md)
+--->
