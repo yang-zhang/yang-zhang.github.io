@@ -1,5 +1,7 @@
 ---
+layout: default
 ---
+
 ## Blog posts
 ### [Simple steps to using docker for data science](ds_docker.md)
 ### [Why and how to automatically save Jupyter notebook to .py files](jupyter_autosave.md)
