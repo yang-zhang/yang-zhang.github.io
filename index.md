@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Blog posts
+## Blog Posts
 ### [Simple steps to using docker for data science](ds_docker.md)
 ### [Why and how to automatically save Jupyter notebook to .py files](jupyter_autosave.md)
 ### [Statistical tests cheatsheet with Python and R](stat_python_r.md)
