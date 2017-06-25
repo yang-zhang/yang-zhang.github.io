@@ -1,3 +1,5 @@
+## How to debug source code of installed python packages (e.g. scikit-learn)
+
 Problem: I want to debug/step through scikit-learn code. But scikit-learn is already installed by conda:
 ```python
 >>> import sklearn
