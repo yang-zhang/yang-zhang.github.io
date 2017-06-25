@@ -35,8 +35,10 @@ Now scikit-learn is using the development version:
 '/Users/yangzhang/git/scikit-learn/sklearn/__init__.py'
 ```
 
-Now you can debug the source code using `pdb`:
+Now you can use `pdb` to debug the source code (for example in examples in `examples` folder):
 ```python
 import pdb; pdb.set_trace()
 ```
-(for example in `https://github.com/yang-zhang/scikit-learn/blob/master/examples/linear_model/plot_lasso_lars.py`)
+
+
+[Back](./)
