@@ -46,6 +46,7 @@ import pdb; pdb.set_trace()
 ```
 References:
 - http://scikit-learn.org/stable/developers/contributing.html
+- http://scikit-learn.org/stable/developers/advanced_installation.html
 - https://stackoverflow.com/questions/6570635/installing-multiple-versions-of-a-package-with-pip
 
 [Back](./)
