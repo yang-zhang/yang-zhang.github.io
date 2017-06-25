@@ -16,6 +16,11 @@ $ pwd /Users/yangzhang/git
 $ git clone https://github.com/yang-zhang/scikit-learn.git 
 ```
 
+Install the package:
+```
+$ python setup.py build_ext --inplace
+```
+
 Add to `~/.bash_profile`:
 ```bash
 export PYTHONPATH="/Users/yangzhang/git/scikit-learn:$PYTHONPATH"
@@ -39,6 +44,8 @@ Now you can use `pdb` to debug the source code (for example in examples in `exam
 ```python
 import pdb; pdb.set_trace()
 ```
-
+References:
+- http://scikit-learn.org/stable/developers/contributing.html
+- https://stackoverflow.com/questions/6570635/installing-multiple-versions-of-a-package-with-pip
 
 [Back](./)
