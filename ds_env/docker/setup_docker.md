@@ -1,10 +1,10 @@
 ## Simple steps to using docker for data science
 
-### Step-1: find a good docker image
+### Step-1: find a good docker image as a starting point.
 For example, [kaggle/python](https://github.com/Kaggle/docker-python).
 
-### Step-2: make changes to the docker image
-Install additional packages and copy additional files, for [example](https://github.com/yang-zhang/ds-env/blob/master/docker/dockerfiles/yang-zhang-ds.docker):
+### Step-2: make changes to the docker image as needed.
+Install additional packages and copy additional files, for [example](https://github.com/yang-zhang/yang-zhang.github.io/blob/master/ds_env/docker/dockerfiles/yang-zhang-ds.docker):
 ```dockerfile
 FROM kaggle/python:latest
 
