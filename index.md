@@ -3,7 +3,7 @@ layout: default
 ---
 
 ## Blog Posts
-### [Simple steps to using docker for data science](ds_env/setup_docker.md)
+### [Simple steps to using docker for data science](ds_env/docker/setup_docker.md)
 ### [Why and how to automatically save Jupyter notebook to .py files](jupyter_autosave.md)
 ### [Statistical tests cheatsheet with Python and R](stat_python_r.md)
 ### [Example of static v.s. dynamic scope](static_dynamic_scope.md)
