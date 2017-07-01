@@ -24,7 +24,7 @@ docker build --file docker/dockerfiles/yang-zhang-ds.docker -t yang-zhang-ds .
 ```
 
 ### Step-4: run the docker image.
-In `.bash_profile`, add shortcuts to the command to run python, ipython, jupyter notebook, and bash in the docker image. For [example](https://github.com/yang-zhang/ds-env/blob/master/setup_docker.md):
+In `.bash_profile`, add shortcuts to the command to run python, ipython, jupyter notebook, and bash in the docker image:
 ```sh
 # For docker begin
 alias dcf='declare -F'
