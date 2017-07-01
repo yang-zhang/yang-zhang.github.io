@@ -25,7 +25,7 @@ Create these aliases in `~/.gitconfig`
 ```
 
 ### Setup `secrets.py`
-In `/Users/yangzhang/Google\ Drive/secrets/secrets.py`, add:
+Create the folder `/Users/yangzhang/Google\ Drive/secrets/` with `__init__.py` and `secrets.py` with something like:
 ```py
 AWS_KEY='ABC123'
 AWS_SECRET='ABCXYZ'
