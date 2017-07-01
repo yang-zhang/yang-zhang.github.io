@@ -46,4 +46,4 @@ Output:
 In func2=20
 ```
 
-[Back](./)
+[Home](https://yang-zhang.github.io/)
