@@ -370,4 +370,4 @@ References:
 - http://knowledgetack.com/python/statsmodels/proportions_ztest/
 - https://github.com/yang-zhang/ds-math/blob/master/correlating_data_python_r.ipynb
 
-[Back](./)
+[Home](https://yang-zhang.github.io/)
