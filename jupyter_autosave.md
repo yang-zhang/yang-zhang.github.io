@@ -28,4 +28,4 @@ See [here](https://github.com/yang-zhang/ds-env/blob/master/docker/dockerfiles/y
 - http://stackoverflow.com/questions/17077494/how-do-i-convert-a-ipython-notebook-into-a-python-file-via-commandline
 - http://protips.maxmasnick.com/ipython-notebooks-automatically-export-py-and-html
 
-[Back](./)
+[Home](https://yang-zhang.github.io/)
