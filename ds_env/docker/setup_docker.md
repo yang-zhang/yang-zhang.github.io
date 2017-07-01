@@ -1,7 +1,7 @@
 ## How to setup docker for data science
 Most setup stuff should be taken care of by this.
 
-### Step-1: find a good docker image as a starting point.
+### Step-1: find a good base docker image as a starting point.
 For example, [kaggle/python](https://github.com/Kaggle/docker-python).
 
 ### Step-2: make changes to the docker image as needed.
@@ -13,7 +13,15 @@ RUN conda install -c conda-forge jupyter_contrib_nbextensions && \
     conda install -c conda-forge jupyter_nbextensions_configurator && \
     conda install -c conda-forge yapf=0.13.2 && \
     conda install -c r rpy2=2.8.5 && \
-    pip install kaggle-cli
+    conda install pytorch torchvision -c soumith && \
+    conda install -c conda-forge feather-format=0.3.1 && \
+    pip install graphviz && \
+    pip install pydot-ng && \
+    pip install kaggle-cli && \
+    pip install mxnet && \
+    # Enable favorite jupyter notebook extensions (https://github.com/ipython-contrib/jupyter_contrib_nbextensions#3-enablingdisabling-extensions)
+    jupyter nbextension enable toc2/main && \
+    jupyter nbextension enable code_prettify/code_prettify
 ADD jupyter_notebook_config.py /root/.jupyter/
 ```
 
