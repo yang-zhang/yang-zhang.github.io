@@ -1,13 +1,27 @@
 ## How to setup the computer for data science
 
-### Docker
-Setup [docker](https://www.docker.com/) and [data science docker images](docker/setup_docker.md).
+This is a checklist of setup stuff for a new computer. 
 
+### Docker
+Install [docker](https://www.docker.com/) and setup [data science docker images](docker/setup_docker.md). Most setup stuff should be taken care of by this.
 
 ### Conda
-Install conda (2 or 3). If want the other version of python available, e.g., if you have conda3 and want to have Python 2.7 available and with everything that comes with anaconda:
-```
+It is still handy to have conda installed locally. Install conda 3. If want to have Python 2.7 available and with everything that comes with anaconda:
+```sh
 conda create -n py27 python=2.7 anaconda
+```
+
+### Git
+Create these aliases in `~/.gitconfig`
+```sh
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
 ```
 
 ### Setup `secrets.py`
@@ -21,46 +35,28 @@ KAGGLE_PW='123'
 ```
 
 ### Setup `.bash_profile`
+Add secrets to `PYTHONPATH`:
 ```sh
 export PYTHONPATH="/Users/yangzhang/git/secrets:$PYTHONPATH"
 
 ```
-
-```
+Create some handy shortcuts:
+```sh
 alias jn='jupyter notebook'
 alias sa='source activate'
 alias sda='source deactivate'
 ```
 
 ### R
-
-#### Add R kernal to conda:
+Two ways to install R:
+- Install R and RStudio.
+- Add R kernal to conda to make it available in Jupyter notebook:
 ```
 conda install -c r r-essentials
 ```
-#### Install package
 
-##### In code
-```
-from rpy2.robjects.packages import importr
-utils = importr('utils')
-utils.install_packages(ro.StrVector(['entropy', 'psych', 'vcd']))
-```
-
-##### Run a R kernal in Jupyter and run
-install.packages(c('entropy', 'psych', 'vcd'))
-
-### Git
-#### Aliases in `~/.gitconfig`
-``` 
-[alias]
-  co = checkout
-  ci = commit
-  st = status
-  br = branch
-  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
-  type = cat-file -t
-  dump = cat-file -p
-```
+### Other tools 
+- Pycharm
+- Sublime
 
 [Home](https://yang-zhang.github.io/)
