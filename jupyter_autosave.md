@@ -17,7 +17,7 @@ or run the schell command in jupyter notebook:
 ### How to *automatically* save a jupyter notebook as a python file?
 Follow this [post](http://protips.maxmasnick.com/ipython-notebooks-automatically-export-py-and-html) and save [this python file](https://github.com/yang-zhang/yang-zhang.github.io/blob/master/ds_env/jupyter_notebook_config.py) (`jupyter_notebook_config.py`) as `~/.jupyter/jupyter_notebook_config.py`. 
 
-### How to automatically save a jupyter notebook as a python file when you're running the notebook in a *docker container*?
+### How to automatically save a jupyter notebook as a python file when you're *running the notebook in a docker container*?
 Add `jupyter_notebook_config.py` to the `.jupyter` folder in the dockerfile:
 ```
 ADD jupyter_notebook_config.py [HOME]/.jupyter/
