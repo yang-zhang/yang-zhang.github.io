@@ -40,12 +40,13 @@ alias dcf='declare -F'
 # run jupyter notebook in docker
 jn_dk() {
     docker run \
-    -v ~/git:/tmp -w=/tmp \
+    -v ~/git:/tmp \
     -v ~/Google\ Drive/secrets:/tmp/secrets \
     -v ~/Google\ Drive/git:/tmp/git_2 \
     -v ~/Storage:/tmp/storage \
-    --rm -it yang-zhang-ds \
+    -w=/tmp \
     -p 8888:8888 \
+    --rm -it yang-zhang-ds \
     bash -c 'export PYTHONPATH=$PYTHONPATH:/tmp/ds-utils:/tmp/secrets; jupyter notebook --no-browser --allow-root --ip="0.0.0.0" --notebook-dir=/tmp'
 }
 
@@ -70,6 +71,7 @@ dk_ds() {
     --rm -it yang-zhang-ds \
     bash -c 'export PYTHONPATH=$PYTHONPATH:/tmp/ds-utils:/tmp/secrets; bash'
 }
+
 # For docker end
 ```
 Note that the `$PYTHONPATH` is updated in the container to include the local packages you want to add. In this example, jupyter notebook is running on `0.0.0.0:8888`.
