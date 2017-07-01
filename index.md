@@ -8,7 +8,7 @@ layout: default
 ### [Statistical tests cheatsheet with Python and R](stat_python_r.md)
 ### [Example of static v.s. dynamic scope](static_dynamic_scope.md)
 ### [How to debug source code of installed Python packages (e.g. scikit-learn)](how_to_run_dev.md)
-### [How to setup the computer](https://github.com/yang-zhang/ds-env/blob/master/setup_local.md)
+### [How to setup the computer](ds_env/setup_local.md)
 <!---
 ### [Reading Notes](reading_list.md)
 ### [Data Science Environment](https://yang-zhang.github.io/ds-env)
