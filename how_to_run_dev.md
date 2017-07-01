@@ -56,4 +56,4 @@ References:
 - http://scikit-learn.org/stable/developers/advanced_installation.html
 - https://stackoverflow.com/questions/6570635/installing-multiple-versions-of-a-package-with-pip
 
-[Back](./)
+[Home](https://yang-zhang.github.io/)

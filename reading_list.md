@@ -45,8 +45,4 @@
       
    - [Hardcore data science in practice - Mikio Braun (Zalando SE) ](https://www.safaribooksonline.com/library/view/strata-hadoop/9781491944639/video249083.html): DS v.s. Data Engineering; Mixed team and Microservice as a solution.
 
------
-
-[View Source](https://github.com/yang-zhang/yang-zhang.github.io)
-
-[GitHub](https://github.com/yang-zhang)
+[Home](https://yang-zhang.github.io/)
