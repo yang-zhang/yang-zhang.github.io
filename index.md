@@ -9,6 +9,7 @@ layout: default
 ### [Statistical tests cheatsheet with Python and R](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/stat/stat_tests_python_r.ipynb)
 ### [Example of static v.s. dynamic scope](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/static_dynamic_scope.ipynb)
 ### [How to debug source code of installed Python packages (e.g. scikit-learn)](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/how_to_run_dev.ipynb)
+### [My "complete" `numpy.newaxis` demo](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/numpy_newaxis.ipynb)
 <!---
 ### [Reading Notes](reading_list.md)
 ### [Data Science Environment](https://yang-zhang.github.io/ds-env)
