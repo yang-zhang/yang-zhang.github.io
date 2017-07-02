@@ -28,51 +28,71 @@
 # Question: What is the confidence interval of the click rate?
 # 
 # ###### Python
-# ```py
-# >>> clicking_visitors = 526
-# >>> all_visitors = 1000
-# >>> confidence_interval_size = 0.95
-# >>> x = clicking_visitors
-# >>> n = all_visitors
-# >>> p_hat = x/n
-# >>> p_hat
-# 0.526
-# >>> import numpy as np
-# >>> standard_error = np.sqrt(p_hat * (1-p_hat) / n)
-# >>> standard_error
-# 0.015789996833438569
-# >>> alpha = 1 - confidence_interval_size
-# >>> alpha
-# 0.050000000000000044
-# >>> 1 - alpha/2
-# 0.975
-# >>> import scipy.stats
-# >>> z_critical = scipy.stats.norm.ppf(1 - alpha/2)
-# >>> z_critical
-# 1.959963984540054
-# >>> confidence_interval = p_hat - z_critical*standard_error, p_hat + z_critical*standard_error
-# >>> confidence_interval
-# (0.49505217489045894, 0.55694782510954111)
-# ```
-# 
+
+# In[1]:
+
+clicking_visitors = 526
+all_visitors = 1000
+confidence_interval_size = 0.95
+x = clicking_visitors
+n = all_visitors
+p_hat = x/n
+p_hat
+
+
+# In[2]:
+
+import numpy as np
+standard_error = np.sqrt(p_hat * (1-p_hat) / n)
+standard_error
+
+
+# In[3]:
+
+alpha = 1 - confidence_interval_size
+alpha
+
+
+# In[4]:
+
+1 - alpha/2
+
+
+# In[5]:
+
+import scipy.stats
+z_critical = scipy.stats.norm.ppf(1 - alpha/2)
+z_critical
+
+
+# In[6]:
+
+confidence_interval = p_hat - z_critical*standard_error, p_hat + z_critical*standard_error
+confidence_interval
+
+
 # Make into a function:
-# ```py
-# >>> import numpy as np
-# >>> import scipy.stats
-# >>> def find_confidence_interval(x, n, confidence_interval_size):
-# ...     p_hat = x/n
-# ...     standard_error = np.sqrt(p_hat * (1-p_hat) / n)
-# ...     alpha = 1 - confidence_interval_size
-# ...     z_critical = scipy.stats.norm.ppf(1 - alpha/2)
-# ...     confidence_interval = p_hat - z_critical*standard_error, p_hat + z_critical*standard_error
-# ...     return confidence_interval
-# ...
-# >>> clicking_visitors = 526
-# >>> all_visitors = 1000
-# >>> find_confidence_interval(x=clicking_visitors, n=all_visitors, confidence_interval_size=0.95)
-# (0.49505217489045894, 0.55694782510954111)
-# ```
-# 
+
+# In[7]:
+
+import numpy as np
+import scipy.stats
+
+def find_confidence_interval(x, n, confidence_interval_size):
+    p_hat = x / n
+    standard_error = np.sqrt(p_hat * (1 - p_hat) / n)
+    alpha = 1 - confidence_interval_size
+    z_critical = scipy.stats.norm.ppf(1 - alpha / 2)
+    confidence_interval = p_hat - z_critical * standard_error, p_hat + z_critical * standard_error
+    return confidence_interval
+
+
+clicking_visitors = 526
+all_visitors = 1000
+find_confidence_interval(
+    x=clicking_visitors, n=all_visitors, confidence_interval_size=0.95)
+
+
 # ###### R
 # ```r
 # > clicking_visitors <- 526
@@ -119,68 +139,83 @@
 # 
 # ###### z-test
 # **Python**
-# ```py
-# >>> clicking_visitors = 526
-# >>> all_visitors = 1000
-# >>> x = clicking_visitors
-# >>> n = all_visitors
-# >>> p_hypo = 0.5
-# >>> p_hat = x/n
-# >>> one_side = False
-# >>> prop_var = p_hat
-# >>> standard_error = np.sqrt(prop_var*(1-prop_var)/n)
-# >>> z = (p_hat-p_hypo)/standard_error
-# >>> p_value = 1 - scipy.stats.norm.cdf(abs(z))
-# >>> if one_side == False:
-# ...     p_value *= 2
-# ...
-# >>> z, p_value
-# (1.6466121098225726, 0.099637799747829492)
-# ```
+
+# In[8]:
+
+clicking_visitors = 526
+all_visitors = 1000
+x = clicking_visitors
+n = all_visitors
+p_hypo = 0.5
+p_hat = x / n
+one_side = False
+prop_var = p_hat
+standard_error = np.sqrt(prop_var * (1 - prop_var) / n)
+z = (p_hat - p_hypo) / standard_error
+p_value = 1 - scipy.stats.norm.cdf(abs(z))
+if one_side == False:
+    p_value *= 2
+
+z, p_value
+
+
 # Make into a function:
-# ```py
-# >>> def single_proportion_ztest(x, n, p_hypo=0.5, prop_var=None, one_side=False):
-# ...     p_hat = x/n
-# ...     if not prop_var:
-# ...         prop_var = p_hat
-# ...     standard_error = np.sqrt(prop_var*(1-prop_var)/n)
-# ...     z = (p_hat-p_hypo)/standard_error
-# ...     p_value = 1 - scipy.stats.norm.cdf(abs(z))
-# ...     if one_side == False:
-# ...         p_value *= 2
-# ...     return z, p_value  
-# ...
-# >>> x = clicking_visitors
-# >>> n = all_visitors
-# >>> single_proportion_ztest(x, n, p_hypo=p_hypo, prop_var=None, one_side=False)
-# (1.6466121098225726, 0.099637799747829492)
-# ```
+
+# In[9]:
+
+def single_proportion_ztest(x, n, p_hypo=0.5, prop_var=None, one_side=False):
+    p_hat = x / n
+    if not prop_var:
+        prop_var = p_hat
+    standard_error = np.sqrt(prop_var * (1 - prop_var) / n)
+    z = (p_hat - p_hypo) / standard_error
+    p_value = 1 - scipy.stats.norm.cdf(abs(z))
+    if one_side == False:
+        p_value *= 2
+    return z, p_value
+
+
+x = clicking_visitors
+n = all_visitors
+single_proportion_ztest(x, n, p_hypo=p_hypo, prop_var=None, one_side=False)
+
+
 # Equivalently, you can use the function from the statsmodels package.
-# ```py
-# >>> import statsmodels.stats.proportion
-# >>> statsmodels.stats.proportion.proportions_ztest(clicking_visitors, all_visitors, value=p_hypo)
-# (1.6466121098225726, 0.099637799747829478)
-# ```
+
+# In[10]:
+
+import statsmodels.stats.proportion
+statsmodels.stats.proportion.proportions_ztest(clicking_visitors, all_visitors, value=p_hypo)
+
+
 # The above uses `p_hat` to . Alternatively we could use `p_hypo`.
-# ```py
-# >>> p_hypo = 0.5
-# >>> single_proportion_ztest(x, n, p_hypo=p_hypo, prop_var=p_hypo, one_side=False)
-# (1.6443843832875589, 0.10009682885123183)
-# ```
+
+# In[11]:
+
+p_hypo = 0.5
+single_proportion_ztest(x, n, p_hypo=p_hypo, prop_var=p_hypo, one_side=False)
+
+
 # Equivalently using the statsmodels package.
-# ```py
-# >>> import statsmodels.stats.proportion
-# >>> statsmodels.stats.proportion.proportions_ztest(clicking_visitors, all_visitors, value=p_hypo, prop_var=p_hypo)
-# (1.6443843832875589, 0.10009682885123182)
-# ```
+
+# In[12]:
+
+import statsmodels.stats.proportion
+statsmodels.stats.proportion.proportions_ztest(clicking_visitors, all_visitors, value=p_hypo, prop_var=p_hypo)
+
+
 # Check one-side case:
-# ```py
-# >>> single_proportion_ztest(x, n, p_hypo=p_hypo, one_side=True)
-# (1.6466121098225726, 0.049818899873914746)
-# >>> statsmodels.stats.proportion.proportions_ztest(clicking_visitors, all_visitors, value=p_hypo, alternative='larger')
-# (1.6466121098225726, 0.049818899873914739)
-# ```
-# 
+
+# In[13]:
+
+single_proportion_ztest(x, n, p_hypo=p_hypo, one_side=True)
+
+
+# In[14]:
+
+statsmodels.stats.proportion.proportions_ztest(clicking_visitors, all_visitors, value=p_hypo, alternative='larger')
+
+
 # **R**
 # ```r
 # > clicking_visitors <- 526
@@ -252,14 +287,15 @@
 # 
 # how confidently do you when you say that click rates are about the same?
 # 
-# #####
-# ```Python
-# >>> import statsmodels.stats.proportion
-# >>> statsmodels.stats.proportion.proportions_ztest([435, 438], [1025, 998])
-# (-0.65775309403384319, 0.51069679938649315)
-# ```
-# 
-# #####
+# ##### Python
+
+# In[15]:
+
+import statsmodels.stats.proportion
+statsmodels.stats.proportion.proportions_ztest([435, 438], [1025, 998])
+
+
+# ##### R
 # ```R
 # > clicking_visitors <- c(435, 418)
 # > all_visitors <- c(1025, 998)
@@ -347,9 +383,7 @@
 # is the averge money spent about the same for A, B, and C?
 # 
 # 
-# Codes:
-# - [R](https://github.com/yang-zhang/ds-math/blob/master/stat_python_r_r.r)
-# - [Python](https://github.com/yang-zhang/ds-math/blob/master/stat_python_r.py)
+# [R Code](https://github.com/yang-zhang/yang-zhang.github.io/blob/master/stat/stat_tests_python_r.r)
 # 
 # References:
 # - http://www.springer.com/us/book/9780387790534
@@ -358,4 +392,3 @@
 # - https://github.com/yang-zhang/ds-math/blob/master/correlating_data_python_r.ipynb
 # 
 # [Home](https://yang-zhang.github.io/)
-# 
