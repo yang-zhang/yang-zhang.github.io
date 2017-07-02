@@ -7,7 +7,7 @@ layout: default
 ### [How to setup docker for data science](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/docker/setup_docker.ipynb)
 ### [Why and how to automatically save Jupyter notebook to .py files](ds_env/jupyter_autosave.md)
 ### [Statistical tests cheatsheet with Python and R](stat_python_r.md)
-### [Example of static v.s. dynamic scope](coding/static_dynamic_scope.md)
+### [Example of static v.s. dynamic scope](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/static_dynamic_scope.ipynb)
 ### [How to debug source code of installed Python packages (e.g. scikit-learn)](ds_env/how_to_run_dev.md)
 <!---
 ### [Reading Notes](reading_list.md)
