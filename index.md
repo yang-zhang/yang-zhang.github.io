@@ -3,7 +3,7 @@ layout: default
 ---
 
 ## Blog Posts
-### [How to setup the computer for data science](ds_env/setup_local.md)
+### [How to setup the computer for data science](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/setup_local.ipynb)
 ### [How to setup docker for data science](ds_env/docker/setup_docker.md)
 ### [Why and how to automatically save Jupyter notebook to .py files](ds_env/jupyter_autosave.md)
 ### [Statistical tests cheatsheet with Python and R](stat_python_r.md)
