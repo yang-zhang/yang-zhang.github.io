@@ -7,7 +7,7 @@ layout: default
 ### [How to setup docker for data science](ds_env/docker/setup_docker.md)
 ### [Why and how to automatically save Jupyter notebook to .py files](ds_env/jupyter_autosave.md)
 ### [Statistical tests cheatsheet with Python and R](stat_python_r.md)
-### [Example of static v.s. dynamic scope](static_dynamic_scope.md)
+### [Example of static v.s. dynamic scope](coding/static_dynamic_scope.md)
 ### [How to debug source code of installed Python packages (e.g. scikit-learn)](ds_env/how_to_run_dev.md)
 <!---
 ### [Reading Notes](reading_list.md)
