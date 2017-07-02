@@ -1,0 +1,1 @@
+For a model in keras, don't have to run `fit` and wait for a long time before code next steps such as evaluation. After `compile`, the model is complete with weights initialized (only not trained on data yet).
