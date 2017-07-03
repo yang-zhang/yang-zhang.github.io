@@ -1,7 +1,8 @@
 
 # coding: utf-8
 
-# ### Completely scalar case
+# # Chain rule examples - scalar and vector cases
+# ## Completely scalar case
 # Let
 # $$
 # g(x)=x^3+3x^2+5x,\
@@ -20,8 +21,8 @@
 # $$
 # f'(x)=h'(g(x))g'(x)=-2(g(x)^{-3})g'(x)=-2(x^3+3x^2+5x)^{-3}(3x^2+6x+5)
 # $$
-
-# ### Output is scalar
+# 
+# ## Output is scalar
 # Let 
 # $$
 # \mathbf g(\mathbf x): \mathbb{R}^3 \rightarrow \mathbb{R}^2=[g_1(\mathbf x), g_2(\mathbf x)]^\top=[x_1^3+2x_2^2+5x_3, 2x_1^3+x_3^2]^\top,
@@ -79,8 +80,8 @@
 # \end{bmatrix}.
 # $$
 # And this can be verified by directly differentiating $f(\mathbf x)=x_1^3+2x_2^2+5x_3 + (2x_1^3+x_3^2)^2$.
-
-# ### Genaral case
+# 
+# ## Genaral case
 # Let 
 # $$
 # \mathbf g(\mathbf x): \mathbb{R}^3 \rightarrow \mathbb{R}^2=[g_1(\mathbf x), g_2(\mathbf x)]^\top=[x_1^3+2x_2^2+5x_3, 2x_1^3+x_3^2]^\top,
