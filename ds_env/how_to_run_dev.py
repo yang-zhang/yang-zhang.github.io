@@ -20,13 +20,30 @@
 # ```
 # 
 # Install the package:
-# ```
+# ```sh
 # $ python setup.py build_ext --inplace
 # ```
 # or
-# ```
+# 
+# ```sh
 # $ python setup.py build_ext -i
 # ```
+# 
+# This allows you to import the in-place built sklearn from the *only repo base directory*, but *not any other* directory. 
+# ```sh
+# $ pwd
+# /Users/yangzhang/git/scikit-learn
+# $ python -c 'import sklearn; print(sklearn.__file__)'
+# /Users/yangzhang/git/scikit-learn/sklearn/__init__.py
+# $ cd examples/
+# $ pwd
+# /Users/yangzhang/git/scikit-learn/examples
+# $ python -c 'import sklearn; print(sklearn.__file__)'
+# /Users/yangzhang/anaconda/lib/python3.6/site-packages/sklearn/__init__.py
+# ```
+# 
+# 
+# 
 # 
 # Now I can use `pdb` to debug the source code (for example in examples in `examples` folder):
 # ```python
