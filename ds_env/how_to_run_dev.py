@@ -1,7 +1,8 @@
 
 # coding: utf-8
 
-# # How to debug source code of installed Python packages (e.g. scikit-learn)
+# How to debug source code of installed Python packages (e.g. scikit-learn)
+# ====
 # 
 # Problem: I want to debug/step through scikit-learn code. But scikit-learn is already installed by conda:
 # ```python
