@@ -26,6 +26,7 @@
 #   st = status
 #   br = branch
 #   hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+#   wdiff = diff --color-words
 #   type = cat-file -t
 #   dump = cat-file -p
 # ```
