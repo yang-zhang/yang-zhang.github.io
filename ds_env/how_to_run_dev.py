@@ -42,10 +42,7 @@
 # /Users/yangzhang/anaconda/lib/python3.6/site-packages/sklearn/__init__.py
 # ```
 # 
-# 
-# 
-# 
-# Now I can use `pdb` to debug the source code (for example in examples in `examples` folder):
+# And now I can use `pdb` to debug the source code (for example in examples in `examples` folder):
 # ```python
 # import pdb; pdb.set_trace()
 # ```
