@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# ## How to debug source code of installed Python packages (e.g. scikit-learn)
+# # How to debug source code of installed Python packages (e.g. scikit-learn)
 # 
 # Problem: I want to debug/step through scikit-learn code. But scikit-learn is already installed by conda:
 # ```python
@@ -22,6 +22,10 @@
 # Install the package:
 # ```
 # $ python setup.py build_ext --inplace
+# ```
+# or
+# ```
+# $ python setup.py build_ext -i
 # ```
 # 
 # Now I can use `pdb` to debug the source code (for example in examples in `examples` folder):
@@ -58,6 +62,7 @@
 # - http://scikit-learn.org/stable/developers/contributing.html
 # - http://scikit-learn.org/stable/developers/advanced_installation.html
 # - https://stackoverflow.com/questions/6570635/installing-multiple-versions-of-a-package-with-pip
+# - https://docs.scipy.org/doc/numpy/dev/development_environment.html
 # 
 # [Home](https://yang-zhang.github.io/)
 # 
