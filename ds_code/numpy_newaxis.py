@@ -265,3 +265,5 @@ show_array(y)
 y = x.reshape(*x.shape, -1)
 show_array(y)
 
+
+# [Home](https://yang-zhang.github.io/)
