@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# # When to use collections.defaultdict
+# # When and how to use collections.defaultdict
 
 # Suppose you want to build lookup tables of "interests by id" and "ids by interest" from this data.
 
