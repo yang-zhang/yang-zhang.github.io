@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# # When and how to use collections.defaultdict
+# # When and how to use `collections.defaultdict`
 
 # Suppose you want to build lookup tables of "interests by id" and "ids by interest" from this data.
 
@@ -59,7 +59,7 @@ print('ids_by_interest:', dict(ids_by_interest))
 print('interests_by_id:', dict(interests_by_id))
 
 
-# ## Use defaultdict
+# ## Use `defaultdict`
 
 # Using defaultdict can simplify the code.
 
