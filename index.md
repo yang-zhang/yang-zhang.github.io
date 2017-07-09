@@ -11,6 +11,8 @@ layout: default
 ### [How to debug source code of installed Python packages (e.g. scikit-learn)](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/how_to_run_dev.ipynb)
 ### [A relatively complete demo of reshaping `numpy.arrays` using `newaxis`, `reshape`, or `expand_dims`](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/numpy_newaxis.ipynb)
 ### [Chain rule examples - scalar and vector cases](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_math/chain_rule.ipynb)
+### [Graph functions in basic Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/graph_demo.ipynb)
+
 <!---
 ### [Reading Notes](reading_list.md)
 ### [Data Science Environment](https://yang-zhang.github.io/ds-env)
