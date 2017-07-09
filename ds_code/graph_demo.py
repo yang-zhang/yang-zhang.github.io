@@ -74,3 +74,6 @@ print_source(connections_2nd_degree)
 for i in range(10):
     print(i, connections_2nd_degree(network, i))
 
+
+# Reference: 
+# - https://github.com/joelgrus/data-science-from-scratch
