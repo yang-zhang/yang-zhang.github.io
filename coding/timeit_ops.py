@@ -85,4 +85,5 @@ dct = {i:1 for i in range(100000)}
 get_ipython().magic('timeit (-1 in dct)')
 
 
+# Reference:
 # - High Performance Python
