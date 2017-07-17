@@ -376,6 +376,8 @@ from IPython.display import Image as IPython_Image
 IPython_Image("italy_out.jpg")
 
 
+# http://www.pythonchallenge.com/pc/return/cat.html
+
 # In[ ]:
 
 
