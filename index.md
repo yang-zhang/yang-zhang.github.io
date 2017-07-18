@@ -16,7 +16,7 @@ layout: default
 ### [When and how to use `collections.defaultdict`](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/defaultdict_demo.ipynb)
 ### [What is the value of `__name__` in Python?](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/name_demo/name_in_python.ipynb)
 ### [Time cost of key operations in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/timeit_ops.ipynb)
-
+### [Hashing objects in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/hashing_objects.ipynb)
 
 
 <!---
