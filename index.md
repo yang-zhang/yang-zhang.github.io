@@ -2,21 +2,28 @@
 layout: default
 ---
 
-## Blog Posts
+
 ### [How to setup the computer for data science](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/setup_local.ipynb)
 ### [How to setup docker for data science](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/docker/setup_docker.ipynb)
 ### [Why and how to automatically save Jupyter notebook to .py files](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/jupyter_autosave.ipynb)
-### [Statistical tests cheatsheet with Python and R](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_math/stat_tests_python_r.ipynb)
-### [Example of static v.s. dynamic scope](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/static_dynamic_scope.ipynb)
 ### [How to debug source code of installed Python packages (e.g. scikit-learn)](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/how_to_run_dev.ipynb)
+
+------
+
+### [Statistical tests cheatsheet with Python and R](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_math/stat_tests_python_r.ipynb)
 ### [A relatively complete demo of reshaping `numpy.arrays` using `newaxis`, `reshape`, or `expand_dims`](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/numpy_newaxis.ipynb)
 ### [Chain rule examples - scalar and vector cases](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_math/chain_rule.ipynb)
 ### [Graph functions in basic Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/graph_demo.ipynb)
 ### [How to find item-based similar users](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/item_based_similar_users.ipynb)
+
+-----
+
+### [Example of static v.s. dynamic scope](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/static_dynamic_scope.ipynb)
 ### [When and how to use `collections.defaultdict`](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/defaultdict_demo.ipynb)
 ### [What is the value of `__name__` in Python?](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/name_demo/name_in_python.ipynb)
 ### [Time cost of key operations in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/timeit_ops.ipynb)
 ### [Hashing objects in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/hashing_objects.ipynb)
+### [How does Python sort tuples](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/python_sort_tuples.ipynb)
 
 
 <!---
