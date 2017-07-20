@@ -16,7 +16,7 @@ layout: default
 
 ### [Example of static v.s. dynamic scope](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/static_dynamic_scope.ipynb)
 ### [When and how to use `collections.defaultdict`](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/defaultdict_demo.ipynb)
-### [What is the value of `__name__` in Python?](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/name_demo/name_in_python.ipynb)
+### [What is the value of `__name__` in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/name_demo/name_in_python.ipynb)
 ### [Time cost of key operations in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/timeit_ops.ipynb)
 ### [Hashing objects in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/hashing_objects.ipynb)
 ### [How does Python sort tuples](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/python_sort_tuples.ipynb)
