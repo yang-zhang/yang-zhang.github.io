@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# # Regular, `@staticmethod`, and `@classmethod` in Python
+# # Instance method, class method, and static method in Python
 
 # In[136]:
 
@@ -29,64 +29,85 @@ class A(object):
 a = A()
 
 
-# `foo()` is a regular object method. 
+# ## Regular instance method
+# `foo(self, x)` is a regular object method. 
 
-# In[118]:
+# In[140]:
 
 a.foo(1)
 
 
-# In[119]:
+# When `foo` is called by the class `A`, `self` (the object instance) is not passed to `foo`, causing an error.
+
+# In[141]:
 
 A.foo(1)
 
 
-# In[131]:
+# This fabricated case allows `A` to call `foo` in unintened way.
+
+# In[142]:
 
 A.foo(1, 1)
 
 
-# In[120]:
+# ## `@classmethod`
+# `class_foo(cls, x)` is a `@classmethod`. The class is passed to foo as the first argument.
+
+# In[143]:
 
 a.class_foo(1)
 
 
-# In[121]:
+# In[144]:
 
 A.class_foo(1)
 
 
-# In[122]:
+# ## @staticmethod
+# `static_foo(x)` is a `@staticmethod`. It can be called by the object and the class without passing the object instance or the class.
+
+# In[145]:
 
 a.static_foo(1)
 
 
-# In[123]:
+# In[146]:
 
 A.static_foo(1)
 
 
-# In[124]:
+# ## An odd case
+# `foo2(x)` is the same as `foo2(self)` expect using an unconventional name `x` instead of `self`.
+
+# In[147]:
 
 a.foo2(1)
 
 
-# In[127]:
+# In[148]:
 
 a.foo2()
 
 
-# In[129]:
+# This fabricated case allows `A` to call `foo2` in unintened way.
+
+# In[149]:
 
 A.foo2(1)
 
+
+# ## An other odd case
+# `foo3()` fails to define argument `self` therefore cannot be called by `a` because `a` will pass it the object instance (i.e., `a` it`self`).
 
 # In[138]:
 
 a.foo3()
 
 
-# In[139]:
+# This fabricated case allows `A` to call `foo2` in unintened way.
+
+# In[150]:
 
 A.foo3()
 
