@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-## Sec-I
+## Sector-I
 
 ### [Statistical tests cheatsheet with Python and R](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_math/stat_tests_python_r.ipynb)
 ### [A relatively complete demo of reshaping `numpy.arrays` using `newaxis`, `reshape`, or `expand_dims`](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/numpy_newaxis.ipynb)
@@ -12,7 +12,7 @@ layout: default
 ### [How to find item-based similar users](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/item_based_similar_users.ipynb)
 
 
-## Sec-II
+## Sector-II
 
 ### [Example of static v.s. dynamic scope](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/static_dynamic_scope.ipynb)
 ### [When and how to use `collections.defaultdict`](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/defaultdict_demo.ipynb)
@@ -20,9 +20,9 @@ layout: default
 ### [Time cost of key operations in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/timeit_ops.ipynb)
 ### [Hashing objects in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/hashing_objects.ipynb)
 ### [How does Python sort tuples](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/python_sort_tuples.ipynb)
+### [Instance method, class method, and static method in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/method_types_python.ipynb)
 
-
-## Sec-III
+## Sector-III
 
 ### [How to setup the computer for data science](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/setup_local.ipynb)
 ### [How to setup docker for data science](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/docker/setup_docker.ipynb)

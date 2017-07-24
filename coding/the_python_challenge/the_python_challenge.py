@@ -377,6 +377,107 @@ IPython_Image("italy_out.jpg")
 
 
 # http://www.pythonchallenge.com/pc/return/cat.html
+# 
+# http://www.pythonchallenge.com/pc/return/uzi.html
+
+# In[4]:
+
+def is_leap_year(year):
+    if year % 4 == 0:
+        if year % 100 == 0:
+            if year % 400 == 0:
+                return True
+            else:
+                return False
+        else:
+            return True
+    else: 
+        return False        
+
+
+# In[9]:
+
+import datetime
+
+
+# In[12]:
+
+datetime.date(1976, 1, 1).weekday()
+
+
+# In[18]:
+
+datetime.date.today().weekday()
+
+
+# In[22]:
+
+for year in range(1582, 2000):
+    if is_leap_year(year):
+        if datetime.date(year, 1, 1).weekday()==3:
+            print(year)
+
+
+# http://www.pythonchallenge.com/pc/return/mozart.html
+
+# In[5]:
+
+ls
+
+
+# In[12]:
+
+im = Image.open('mozart.gif')
+w, h = im.size
+
+
+# In[30]:
+
+bars = []
+for i in range(h):
+    for j in range(w-5):
+        if im.getpixel((j, i))==195 and         im.getpixel((j+1, i))==195 and         im.getpixel((j+2, i))==195 and         im.getpixel((j+3, i))==195 and         im.getpixel((j+4, i))==195:
+            bars.append((j))
+            continue
+        
+
+
+# In[31]:
+
+len(bars)
+
+
+# In[32]:
+
+h
+
+
+# In[27]:
+
+im_new = Image.new('RGB', (w,h))
+
+
+# In[48]:
+
+11%10
+
+
+# In[57]:
+
+for i in range(h):
+    start = bars[i]
+    for j in range(w):
+        px = im.getpixel(((j+start)%w, i))
+        im_new.putpixel((j, i), px)
+        
+
+
+# In[58]:
+
+im_new
+
+
+# http://www.pythonchallenge.com/pc/return/romance.html
 
 # In[ ]:
 
