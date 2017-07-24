@@ -1,12 +1,9 @@
 
 # coding: utf-8
 
-# In[ ]:
+# # Regular, `@staticmethod`, and `@classmethod` in Python
 
-
-
-
-# In[116]:
+# In[136]:
 
 class A(object):
     def foo(self, x):
@@ -20,14 +17,19 @@ class A(object):
     def static_foo(x):
         print("executing static_foo(%s)" % (x))
     
-    def bare_foo(x):
-        print("executing bare_foo(%s)" % (x))
+    def foo2(x):
+        print("executing foo2(%s)" % (x))
+        
+    def foo3():
+        print("executing foo3")
 
 
-# In[117]:
+# In[137]:
 
 a = A()
 
+
+# `foo()` is a regular object method. 
 
 # In[118]:
 
@@ -66,17 +68,27 @@ A.static_foo(1)
 
 # In[124]:
 
-a.bare_foo(1)
+a.foo2(1)
 
 
 # In[127]:
 
-a.bare_foo()
+a.foo2()
 
 
 # In[129]:
 
-A.bare_foo(1)
+A.foo2(1)
+
+
+# In[138]:
+
+a.foo3()
+
+
+# In[139]:
+
+A.foo3()
 
 
 # - Java for Python Programmers
