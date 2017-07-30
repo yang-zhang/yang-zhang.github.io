@@ -32,7 +32,7 @@
 # ```
 # 
 # ## Step-3: build the docker image.
-# Under [ds_env](https://github.com/yang-zhang/yang-zhang.github.io/tree/master/ds_env), run
+# Under [ds_env](https://github.com/yang-zhang/yang-zhang.github.io/tree/master/ds_env/docker), run
 # ```sh
 # docker build --file docker/dockerfiles/yang-zhang-ds.docker -t yang-zhang-ds .
 # ```
