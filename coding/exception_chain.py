@@ -1,19 +1,19 @@
 
 # coding: utf-8
 
-# # Exception Chain
+# # Exception chain in Python
 
 # ## First example
 # A function that handles exception by writing to a logfile.
 
 # Remove logfile if already exsits.
 
-# In[68]:
+# In[80]:
 
 rm -f logfile.txt
 
 
-# In[69]:
+# In[81]:
 
 def get_value(dictionary, name):
     try:
@@ -25,34 +25,34 @@ def get_value(dictionary, name):
         log.close()
 
 
-# In[70]:
+# In[82]:
 
 names={"Jack":113, "Jill":32,"Yoda":395}
 
 
-# In[71]:
+# In[83]:
 
 print(get_value(names,"Jackz"))#change to Jack and it runs fine
 
 
-# In[72]:
+# In[84]:
 
 print(get_value(names,"Jack"))#change to Jack and it runs fine
 
 
 # Change logfile to read-only
 
-# In[73]:
+# In[85]:
 
 ls -l logfile.txt
 
 
-# In[74]:
+# In[86]:
 
 get_ipython().system('chmod 400 logfile.txt')
 
 
-# In[75]:
+# In[87]:
 
 ls -l logfile.txt
 
@@ -63,7 +63,7 @@ ls -l logfile.txt
 # During handling of the above exception, another exception occurred: PermissionError: [Errno 13] Permission denied: 'logfile.txt'
 # ```
 
-# In[76]:
+# In[88]:
 
 print(get_value(names,"Jackz"))
 
@@ -129,14 +129,14 @@ validate('tooooooo_long', validator)
 # The above exception was the direct cause of the following exception: ValueError: Invalid value: 12345
 # ```
 
-# In[78]:
+# In[ ]:
 
 validate(12345, validator)
 
 
 # The outmost exception is being raised.
 
-# In[79]:
+# In[ ]:
 
 try:
     validate(12345, validator)
