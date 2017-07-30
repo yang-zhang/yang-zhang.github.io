@@ -11,7 +11,6 @@ layout: default
 ### [Graph functions in basic Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/graph_demo.ipynb)
 ### [How to find item-based similar users](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/item_based_similar_users.ipynb)
 
-
 ## Sector-II
 
 ### [Example of static v.s. dynamic scope](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/static_dynamic_scope.ipynb)
@@ -21,6 +20,7 @@ layout: default
 ### [Hashing objects in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/hashing_objects.ipynb)
 ### [How does Python sort tuples](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/python_sort_tuples.ipynb)
 ### [Instance method, class method, and static method in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/method_types_python.ipynb)
+### [Exception chain in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/exception_chain.ipynb)
 
 ## Sector-III
 
