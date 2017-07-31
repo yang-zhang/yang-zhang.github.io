@@ -3,12 +3,12 @@
 
 # # Relative import in Python
 
-# In[1]:
+# In[16]:
 
-pwd
+ls
 
 
-# In[2]:
+# In[17]:
 
 get_ipython().system('find some_folder/my_package/')
 
@@ -34,6 +34,11 @@ cat some_folder/my_package/package_1/module_2.py
 # In[6]:
 
 cat some_folder/my_package/package_1/module_3.py
+
+
+# In[14]:
+
+cat some_folder/my_package/package_1/package_2/module_4.py
 
 
 # In[7]:
