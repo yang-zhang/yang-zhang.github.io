@@ -10,6 +10,7 @@ layout: default
 ### [Chain rule examples - scalar and vector cases](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_math/chain_rule.ipynb)
 ### [Graph functions in basic Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/graph_demo.ipynb)
 ### [How to find item-based similar users](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/item_based_similar_users.ipynb)
+### [Cheatsheet: howtos](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/cheatsheet_howtos.ipynb)
 
 
 ## Sector-II
