@@ -10,7 +10,6 @@ layout: default
 ### [Chain rule examples - scalar and vector cases](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_math/chain_rule.ipynb)
 ### [Graph functions in basic Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/graph_demo.ipynb)
 ### [How to find item-based similar users](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/item_based_similar_users.ipynb)
-### [Cheatsheet: howtos](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/cheatsheet_howtos.ipynb)
 
 ## Sector-II
 
@@ -31,6 +30,7 @@ layout: default
 ### [How to setup docker for data science](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/docker/setup_docker.ipynb)
 ### [Why and how to automatically save Jupyter notebook to .py files](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/jupyter_autosave.ipynb)
 ### [How to debug source code of installed Python packages (e.g. scikit-learn)](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/how_to_run_dev.ipynb)
+### [Cheatsheet: howtos](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/cheatsheet_howtos.ipynb)
 
 
 
