@@ -97,7 +97,7 @@ a.foo2()
 A.foo2(1)
 
 
-# ## An other odd case
+# ## Another odd case
 # `foo3()` fails to define argument `self` therefore cannot be called by `a` because `a` will pass it the object instance (i.e., `a` it`self`).
 
 # In[138]:

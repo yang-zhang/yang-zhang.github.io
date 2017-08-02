@@ -6,6 +6,7 @@ RUN conda install -c conda-forge jupyter_contrib_nbextensions && \
     conda install -c r rpy2=2.8.5 && \
     conda install pytorch torchvision -c soumith && \
     conda install -c conda-forge feather-format=0.3.1 && \
+    conda install -c conda-forge scrapy && \
     pip install graphviz && \
     pip install pydot-ng && \
     pip install kaggle-cli && \
