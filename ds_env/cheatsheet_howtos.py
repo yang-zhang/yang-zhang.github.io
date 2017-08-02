@@ -1,25 +1,34 @@
 
 # coding: utf-8
 
-# ## Misc tips and tricks
+# # Cheatsheet: howtos
 # 
+# ## Git
 # 
-# ###
+# ### Add upstream branch
+# ```sh
+# git remote add upstream https://github.com/scikit-learn/scikit-learn.git
+# ```
 # 
-# ####
-# Clone from existing env
+# ### Check out remote branch
+# ```sh
+# git fetch origin
+# git checkout --track -b some_branch origin/somebrach
+# ```
+# 
+# ### Clone from existing env
 # ```
 # conda create -n new_env --clone root
 # ```
 # 
-# ## Imports
+# ### Imports
 # Use a [customerized import script](https://github.com/yang-zhang/ds-utils/blob/master/ds_utils/imports.py) for frequent modules and setups. Add the following to the beginning of code:
 # ```
 # import ds_utils.imports; import imp; imp.reload(ds_utils.imports)
 # from ds_utils.imports import
 # ```
 # 
-# ## xgboost
+# ### xgboost
 # Conda's version is old.
 # ```
 # cd Downloads
@@ -37,6 +46,7 @@
 # - Add original owner’s repository: cd xgboost; git remote add dmlc https://github.com/dmlc/xgboost
 # - Show remote repo: git remote -v
 # See [here](http://kbroman.org/github_tutorial/pages/fork.html) for reference.
+# 
 # ### Add remote branch
 # ```
 # git checkout --track origin/name_of_the_remote_branch
@@ -57,9 +67,11 @@
 # ```
 # top -o MEM
 # ```
+# 
 # ### [Add link to imported modules on github](http://fiatjaf.alhur.es/module-linker/#/python)
+# 
 # ### [Move tabs using keyboard in Chrome](https://chrome.google.com/webstore/detail/moigagbiaanpboaflikhdhgdfiifdodd)
-# ### [Glenn Gould](https://music.amazon.com/artists/B000QKLXBO/CATALOG?ref=dm_wcp_artist_link_pr_s)
+# 
 # 
 # ### Kaggle
 # ```
@@ -67,8 +79,8 @@
 # !kg download
 # !kg submit $submit_file -u $KAGGLE_USER -p $KAGGLE_PW -m $model_description
 # ```
-# 
-# #### Install package
+
+# ### Install package
 # 
 # ##### In code
 # ```
@@ -81,7 +93,8 @@
 # install.packages(c('entropy', 'psych', 'vcd'))
 # 
 # [Home](https://yang-zhang.github.io/)
-# 
-# ##### Check out remote branch
-# git fetch origin
-# git checkout --track -b some_branck origin/somebrach
+
+# In[ ]:
+
+
+
