@@ -71,7 +71,7 @@
 # !kg submit $submit_file -u $KAGGLE_USER -p $KAGGLE_PW -m $model_description
 # ```
 
-# ## Install R package 
+# ## Install R packages in Jupyter notebook 
 # 
 # ### In code
 # ```
