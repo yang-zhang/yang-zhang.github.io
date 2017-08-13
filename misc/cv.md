@@ -2,8 +2,8 @@
 Address
 Phone
 Email
-Web:
-LinkedIn:
+Web
+LinkedIn
 
 ### Education
 
