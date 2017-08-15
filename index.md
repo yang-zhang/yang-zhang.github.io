@@ -23,6 +23,8 @@ layout: default
 ### [Exception chain in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/exception_chain.ipynb)
 ### [Relative import in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/relative_import/relative_import.ipynb)
 ### [Create decorator using functools.wraps](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/functools_wraps.ipynb)
+### [Method Resolution Order (MRO) in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/method_resolution_order.ipynb)
+### [Mixins in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/mixin.ipynb)
 
 ## Sector-III
 
