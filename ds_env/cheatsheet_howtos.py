@@ -5,7 +5,7 @@
 # 
 # ## Git
 # 
-# ### Add upstream branch
+# ### Add upstream repository
 # ```sh
 # git remote add upstream https://github.com/scikit-learn/scikit-learn.git
 # ```
