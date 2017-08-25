@@ -16,13 +16,15 @@
 # ```
 # - Click **cmd+shift+P** and use *Install Package*.
 
-# In[ ]:
-
-
-
+# Use mjhea0's settings:
+# - [Preferences.sublime-settings
+# ](https://github.com/mjhea0/sublime-setup-for-python/blob/master/dotfiles/Preferences.sublime-settings)
+# - [Python.sublime-settings](https://github.com/mjhea0/sublime-setup-for-python/blob/master/dotfiles/Python.sublime-settings)
+#     
 
 # References:
 # - https://realpython.com/blog/python/setting-up-sublime-text-3-for-full-stack-python-development/
+# - https://github.com/mjhea0/sublime-setup-for-python
 
 # In[ ]:
 
