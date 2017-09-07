@@ -1,6 +1,0 @@
-REDDIT_USER_NAME = "yang-zhang"
-REDDIT_PASSWORD = "9WNbrq)y)d4XeVJd"
-
-# My Example App
-APP_CLIENT_ID = "dZ8ftLdEWYvT0w"
-APP_CLIENT_SECRET = "p9P5vpqhFDtdGrFwMiSVSWsBaPE"
