@@ -25,6 +25,7 @@ layout: default
 ### [Create decorator using functools.wraps](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/functools_wraps.ipynb)
 ### [Method Resolution Order (MRO) in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/method_resolution_order.ipynb)
 ### [Mixins in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/mixin.ipynb)
+###[`property` in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/property_python.ipynb)
 ## Sector-III
 
 ### [How to setup the computer for data science](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/setup_local.ipynb)
