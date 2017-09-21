@@ -6,4 +6,4 @@
 - https://medium.com/towards-data-science/building-your-own-deep-learning-box-47b918aea1eb
 - https://www.oreilly.com/learning/build-a-super-fast-deep-learning-machine-for-under-1000
 
-
+- https://pcpartpicker.com/
