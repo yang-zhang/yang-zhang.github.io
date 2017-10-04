@@ -5,7 +5,7 @@ layout: default
 
 ## Sector-I
 
-### [Python package for Easier-to-use statistical tests](https://github.com/yang-zhang/stat-tests/blob/master/README.md)
+### [Python package for Easier-to-use statistical tests](https://github.com/yang-zhang/stat-tests)
 ### [A relatively complete demo of reshaping `numpy.arrays` using `newaxis`, `reshape`, or `expand_dims`](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/numpy_newaxis.ipynb)
 ### [Chain rule examples - scalar and vector cases](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_math/chain_rule.ipynb)
 ### [Graph functions in basic Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/graph_demo.ipynb)
