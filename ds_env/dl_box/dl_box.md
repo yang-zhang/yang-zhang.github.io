@@ -62,6 +62,8 @@ References:
 ### Setup ssh
 
 Find out default gateway using `route -n`. For example `192.168.1.1`. Go to this IP in browser, end username and password (e.g., `admin`, `admin`).
+Find out inet addr using `ifconfig`. For example `192.168.1.114`, enable Port `22` for this IP.
+
 
 ```sh
 sudo apt-get install openssh-server
