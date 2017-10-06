@@ -19,14 +19,29 @@ My [part list](https://pcpartpicker.com/list/jcM9kT):
 
 ![](https://github.com/yang-zhang/yang-zhang.github.io/blob/master/ds_env/dl_box/dl_box_parts.jpg)
 
+References
+- http://timdettmers.com/2017/04/09/which-gpu-for-deep-learning/
+- https://youtu.be/cRjPVN3oo4s?t=1981
+- https://blog.slavv.com/the-1700-great-deep-learning-box-assembly-setup-and-benchmarks-148c5ebe6415
+- http://forums.fast.ai/t/making-your-own-server/174
+- https://medium.com/towards-data-science/building-your-own-deep-learning-box-47b918aea1eb
+- https://www.oreilly.com/learning/build-a-super-fast-deep-learning-machine-for-under-1000
+- https://pcpartpicker.com/
+- https://superuser.com/questions/1186150/gpu-memory-bandwidth-vs-speed
+- http://graphific.github.io/posts/building-a-deep-learning-dream-machine/
+- https://medium.com/@timcamber/deep-learning-pc-build-5cffa71ad97 
+- https://medium.com/towards-data-science/build-a-deep-learning-rig-for-800-4434e21a424f
 
 ## Software
 
 ### OS
-Create a bootable Ubuntu USB stick: https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos
+Create a bootable Ubuntu USB stick.
+
+Reference:
+- https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos
 
 ### GPU Driver
-Install cuda driver:
+Install cuda driver before installing graphic card:
 ```sh
 wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
 sudo dpkg -i cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
@@ -40,24 +55,19 @@ export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 export LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LIBRARY_PATH:+:${LIBRARY_PATH}}
 ```
-Reference [here](https://medium.com/towards-data-science/building-your-own-deep-learning-box-47b918aea1eb)
-and [here](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=debnetwork)
+References:
+- https://medium.com/towards-data-science/building-your-own-deep-learning-box-47b918aea1eb
+- https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=debnetwork
 
 ### Setup ssh
+
+Find out default gateway using `route -n`. For example `192.168.1.1`. Go to this IP in browser, end username and password (e.g., `admin`, `admin`).
+
 ```sh
 sudo apt-get install openssh-server
 sudo service ssh status
 ```
+References:
+- https://askubuntu.com/questions/140236/can-i-access-my-home-pc-from-the-office-with-ssh
+- https://www.pcworld.com/article/244314/how_to_forward_ports_on_your_router.html).
 
-## References
-- http://timdettmers.com/2017/04/09/which-gpu-for-deep-learning/
-- https://youtu.be/cRjPVN3oo4s?t=1981
-- https://blog.slavv.com/the-1700-great-deep-learning-box-assembly-setup-and-benchmarks-148c5ebe6415
-- http://forums.fast.ai/t/making-your-own-server/174
-- https://medium.com/towards-data-science/building-your-own-deep-learning-box-47b918aea1eb
-- https://www.oreilly.com/learning/build-a-super-fast-deep-learning-machine-for-under-1000
-- https://pcpartpicker.com/
-- https://superuser.com/questions/1186150/gpu-memory-bandwidth-vs-speed
-- http://graphific.github.io/posts/building-a-deep-learning-dream-machine/
-- https://medium.com/@timcamber/deep-learning-pc-build-5cffa71ad97 
-- https://medium.com/towards-data-science/build-a-deep-learning-rig-for-800-4434e21a424f
