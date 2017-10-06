@@ -14,6 +14,12 @@ sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/
 sudo apt-get update
 sudo apt-get install cuda
 ```
+Add to `~/.bash_profile':
+```sh
+export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+export LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LIBRARY_PATH:+:${LIBRARY_PATH}}
+```
 
 ## References
 - http://timdettmers.com/2017/04/09/which-gpu-for-deep-learning/
