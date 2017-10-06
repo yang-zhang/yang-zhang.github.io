@@ -69,5 +69,6 @@ sudo service ssh status
 ```
 References:
 - https://askubuntu.com/questions/140236/can-i-access-my-home-pc-from-the-office-with-ssh
-- https://www.pcworld.com/article/244314/how_to_forward_ports_on_your_router.html).
+- https://www.pcworld.com/article/244314/how_to_forward_ports_on_your_router.html
+- http://www.noip.com/support/knowledgebase/installing-the-linux-dynamic-update-client-on-ubuntu/
 
