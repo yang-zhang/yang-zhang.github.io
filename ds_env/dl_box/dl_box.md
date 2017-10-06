@@ -71,6 +71,9 @@ Get a host name from https://www.noip.com/.
 sudo apt-get install openssh-server
 sudo service ssh status
 ```
+
+You can now ssh to the box using `ssh user_dl_box@hostname` and the password of the box.
+
 References:
 - https://askubuntu.com/questions/140236/can-i-access-my-home-pc-from-the-office-with-ssh
 - https://www.pcworld.com/article/244314/how_to_forward_ports_on_your_router.html
