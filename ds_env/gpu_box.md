@@ -1,12 +1,20 @@
-# GPU Box
+# Deep Learning Box Setup
 
 ## Hardware
 
+[PCPartPicker part list](https://pcpartpicker.com/list/jcM9kT)
+
+- CPU: Intel - Core i5-6500 3.2GHz Quad-Core Processor 
+- Motherboard: MSI - B250I GAMING PRO AC Mini ITX LGA1151 Motherboard 
+- Memory: Corsair - Vengeance LPX 16GB (2 x 8GB) DDR4-3000 Memory 
+- Storage: Seagate - Barracuda 3TB 3.5" 7200RPM Internal Hard Drive 
+- Video Card: EVGA - GeForce GTX 1060 6GB 6GB GAMING Video Card  ($309.00 @ Adorama) 
+- Case: Thermaltake - Core V1 Mini ITX Tower Case 
+- Power Supply: Corsair - CSM 550W 80+ Gold Certified Semi-Modular ATX Power Supply 
+
 ## Software
-
-[here](https://medium.com/towards-data-science/building-your-own-deep-learning-box-47b918aea1eb)
-and [here](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=debnetwork)
-
+### GPU Driver
+Install cuda driver:
 ```sh
 wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
 sudo dpkg -i cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
@@ -19,6 +27,14 @@ Add to `~/.bash_profile':
 export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 export LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LIBRARY_PATH:+:${LIBRARY_PATH}}
+```
+Reference [here](https://medium.com/towards-data-science/building-your-own-deep-learning-box-47b918aea1eb)
+and [here](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=debnetwork)
+
+### Setup ssh
+```sh
+sudo apt-get install openssh-server
+sudo service ssh status
 ```
 
 ## References
