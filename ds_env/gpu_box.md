@@ -1,4 +1,21 @@
 # GPU Box
+
+## Hardware
+
+## Software
+
+[here](https://medium.com/towards-data-science/building-your-own-deep-learning-box-47b918aea1eb)
+and [here](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=debnetwork)
+
+```sh
+wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
+sudo dpkg -i cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
+sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub
+sudo apt-get update
+sudo apt-get install cuda
+```
+
+## References
 - http://timdettmers.com/2017/04/09/which-gpu-for-deep-learning/
 - https://youtu.be/cRjPVN3oo4s?t=1981
 - https://blog.slavv.com/the-1700-great-deep-learning-box-assembly-setup-and-benchmarks-148c5ebe6415
