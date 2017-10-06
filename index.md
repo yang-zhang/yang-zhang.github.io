@@ -27,7 +27,7 @@ layout: default
 ### [Mixins in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/mixin.ipynb)
 ### [`property` in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/property_python.ipynb)
 ## Sector-III
-
+### [How to setup your own deep Learning box](https://github.com/yang-zhang/yang-zhang.github.io/blob/master/ds_env/dl_box/dl_box.md)
 ### [How to setup the computer for data science](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/setup_local.ipynb)
 ### [How to setup docker for data science](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/docker/setup_docker.ipynb)
 ### [Why and how to automatically save Jupyter notebook to .py files](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/jupyter_autosave.ipynb)
