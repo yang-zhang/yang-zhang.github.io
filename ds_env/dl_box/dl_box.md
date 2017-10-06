@@ -2,7 +2,7 @@
 
 ## Hardware
 Tips:
-- RAM twice the size of GPU memory
+- RAM 2x the size of GPU memory
 - Motherboard and case the same type (e.g., Mini ITX)
 
 My [part list](https://pcpartpicker.com/list/jcM9kT):
