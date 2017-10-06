@@ -60,10 +60,12 @@ References:
 - https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=debnetwork
 
 ### Setup ssh
-
 Find out default gateway using `route -n`. For example `192.168.1.1`. Go to this IP in browser, end username and password (e.g., `admin`, `admin`).
-Find out inet addr using `ifconfig`. For example `192.168.1.114`, enable Port `22` for this IP.
 
+Find out inet addr using `ifconfig`. For example `192.168.1.114`, enable Port `22` for this IP. 
+Verify that the port is open using http://www.portchecktool.com/.
+
+Get a host name from https://www.noip.com/.
 
 ```sh
 sudo apt-get install openssh-server
