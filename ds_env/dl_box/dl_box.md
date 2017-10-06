@@ -6,6 +6,9 @@ Tips:
 - Motherboard and case the same type (e.g., Mini ITX)
 
 My [part list](https://pcpartpicker.com/list/jcM9kT):
+
+![](https://github.com/yang-zhang/yang-zhang.github.io/blob/master/ds_env/dl_box/dl_box.png)
+
 - CPU: Intel - Core i5-6500 3.2GHz Quad-Core Processor 
 - Motherboard: MSI - B250I GAMING PRO AC Mini ITX LGA1151 Motherboard 
 - Memory: Corsair - Vengeance LPX 16GB (2 x 8GB) DDR4-3000 Memory 
@@ -14,7 +17,8 @@ My [part list](https://pcpartpicker.com/list/jcM9kT):
 - Case: Thermaltake - Core V1 Mini ITX Tower Case 
 - Power Supply: Corsair - CSM 550W 80+ Gold Certified Semi-Modular ATX Power Supply 
 
-![](https://github.com/yang-zhang/yang-zhang.github.io/blob/master/ds_env/dl_box/dl_box.png)
+![](https://github.com/yang-zhang/yang-zhang.github.io/blob/master/ds_env/dl_box/dl_box_parts.jpg)
+
 
 ## Software
 ### GPU Driver
