@@ -21,6 +21,10 @@ My [part list](https://pcpartpicker.com/list/jcM9kT):
 
 
 ## Software
+
+### OS
+Create a bootable Ubuntu USB stick: https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos
+
 ### GPU Driver
 Install cuda driver:
 ```sh
