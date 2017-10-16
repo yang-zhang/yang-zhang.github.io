@@ -4,6 +4,7 @@
 - [wiki](http://wiki.fast.ai/index.php/Main_Page)
 - [class notes](http://wiki.fast.ai/index.php/Course_notes)
 - [files](http://files.fast.ai/)
+- [Image Kernels Explained Visually](http://setosa.io/ev/image-kernels/)
 
 ### misc
 - [pdb tutorial](https://pythonconquerstheuniverse.wordpress.com/2009/09/10/debugging-in-python/)
