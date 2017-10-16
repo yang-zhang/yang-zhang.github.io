@@ -1,22 +1,18 @@
-## Misc tips and tricks
+# Misc tips and tricks
 
 
-###
+### Download file from jupyter notebook
+```py
+from IPython.display import FileLink
+FileLink('something.csv')
+```
 
-####
-Clone from existing env
+### Conda Clone from existing env
 ```
 conda create -n new_env --clone root
 ```
 
-## Imports
-Use a [customerized import script](https://github.com/yang-zhang/ds-utils/blob/master/ds_utils/imports.py) for frequent modules and setups. Add the following to the beginning of code:
-```
-import ds_utils.imports; import imp; imp.reload(ds_utils.imports)
-from ds_utils.imports import
-```
-
-## xgboost
+### xgboost
 Conda's version is old.
 ```
 cd Downloads
@@ -24,9 +20,6 @@ git clone --recursive https://github.com/dmlc/xgboost
 cd xgboost; cp make/minimum.mk ./config.mk; make -j4
 cd python-package; sudo python setup.py install
 ```
-
-Add [ds-utils](https://github.com/yang-zhang/ds-utils) to path:
-
 
 ### Git setup for contributing to repo
 - Fork the repo on github (e.g. https://github.com/dmlc/xgboost)
@@ -39,7 +32,6 @@ See [here](http://kbroman.org/github_tutorial/pages/fork.html) for reference.
 git checkout --track origin/name_of_the_remote_branch
 ```
 
-## Misc Hacks
 
 ### Python 2 to 3
 ```
@@ -65,16 +57,16 @@ top -o MEM
 !kg submit $submit_file -u $KAGGLE_USER -p $KAGGLE_PW -m $model_description
 ```
 
-#### Install package
+### Install R package for in conda
 
-##### In code
+#### In code
 ```
 from rpy2.robjects.packages import importr
 utils = importr('utils')
 utils.install_packages(ro.StrVector(['entropy', 'psych', 'vcd']))
 ```
 
-##### Run a R kernal in Jupyter and run
+#### Run a R kernal in Jupyter and run
 install.packages(c('entropy', 'psych', 'vcd'))
 
 [Home](https://yang-zhang.github.io/)
