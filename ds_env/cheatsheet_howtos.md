@@ -2,6 +2,11 @@
 
 ## Git
 
+### Enable credentials storage 
+```sh
+git config credential.helper store
+```
+
 ### Add upstream repository
 ```sh
 git remote add upstream https://github.com/scikit-learn/scikit-learn.git
