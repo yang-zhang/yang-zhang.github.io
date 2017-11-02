@@ -1,7 +1,9 @@
 # Misc tips and tricks
 
 ### Save git credential to avoid typing user and pw repeatedly
+```sh
 git config --global credential.helper cache
+```
 
 ### Download file from jupyter notebook
 ```py
