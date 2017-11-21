@@ -34,9 +34,14 @@ git checkout --track upstream/name_of_branch
 ```
 
 ## Keras
-Switch backend:
-```py
+Switch backend temporarily:
+In shell:
+```sh
 KERAS_BACKEND=tensorflow ipython
+```
+or in notebook:
+```sh
+%env KERAS_BACKEND=tensorflow
 ```
 
 ## Docker
