@@ -33,6 +33,12 @@ git fetch upstream
 git checkout --track upstream/name_of_branch
 ```
 
+## Keras
+Switch backend:
+```py
+KERAS_BACKEND=tensorflow ipython
+```
+
 ## Docker
 ### Get image and run
 ```
