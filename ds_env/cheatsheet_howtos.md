@@ -27,7 +27,10 @@ See [here](http://kbroman.org/github_tutorial/pages/fork.html) for reference.
 
 ### Add remote branch
 ```
-git checkout --track origin/name_of_the_remote_branch
+git checkout -b name_of_branch origin/name_of_branch
+
+git fetch upstream
+git checkout --track upstream/name_of_branch
 ```
 
 ## Docker
