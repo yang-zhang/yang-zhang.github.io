@@ -2,7 +2,7 @@
 
 ### Save git credential to avoid typing user and pw repeatedly
 ```sh
-git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=3600'
 ```
 
 ### Download file from jupyter notebook
