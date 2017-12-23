@@ -12,7 +12,7 @@ layout: default
 ### [How to find item-based similar users](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/item_based_similar_users.ipynb)
 
 ## Sector-II
-
+### [Inplace update (e.g., `+=`) v.s. reassign (e.g., `x = x + 1`)](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/python_update_vs_reassign.ipynb)
 ### [Example of static v.s. dynamic scope](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/static_dynamic_scope.ipynb)
 ### [When and how to use `collections.defaultdict`](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_code/defaultdict_demo.ipynb)
 ### [What is the value of `__name__` in Python](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/coding/name_demo/name_in_python.ipynb)
