@@ -34,7 +34,7 @@ layout: default
 ### [Why and how to automatically save Jupyter notebook to .py files](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/jupyter_autosave.ipynb)
 ### [How to debug source code of installed Python packages (e.g. scikit-learn)](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/how_to_run_dev.ipynb)
 ### [How to package and distribut Pyhton projects - with a template project](http://nbviewer.jupyter.org/github/yang-zhang/howto-pypi/blob/master/docs/howto-pypi.ipynb)
-### [Cheatsheet: howtos](http://nbviewer.jupyter.org/github/yang-zhang/yang-zhang.github.io/blob/master/ds_env/cheatsheet_howtos.ipynb)
+### [Cheatsheet: howtos](https://github.com/yang-zhang/yang-zhang.github.io/blob/master/ds_env/cheatsheet_howtos.md)
 ### [A curated list of docker images for data science with instructions](https://github.com/yang-zhang/docker-setup)
 
 
