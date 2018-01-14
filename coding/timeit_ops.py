@@ -5,25 +5,25 @@
 
 # ## Creating `range(n)` is $O(1)$
 
-# In[93]:
+# In[1]:
 
 get_ipython().magic('timeit lst = range(10)')
 
 
-# In[94]:
+# In[2]:
 
 get_ipython().magic('timeit lst = range(10000000)')
 
 
 # ## Retrieving any item by index in a list of length $n$ is $O(1)$
 
-# In[100]:
+# In[3]:
 
 lst = range(10)
 get_ipython().magic('timeit lst[5]')
 
 
-# In[101]:
+# In[4]:
 
 lst = range(1000000)
 get_ipython().magic('timeit lst[500000]')
@@ -31,13 +31,13 @@ get_ipython().magic('timeit lst[500000]')
 
 # ## Converting a list of length $n$ to a set is $O(n)$
 
-# In[102]:
+# In[5]:
 
 lst = range(10)
 get_ipython().magic('timeit st = set(lst)')
 
 
-# In[103]:
+# In[6]:
 
 lst = range(100000)
 get_ipython().magic('timeit st = set(lst)')
@@ -45,13 +45,13 @@ get_ipython().magic('timeit st = set(lst)')
 
 # ## Checking membership in a set of size $n$ is $O(1)$
 
-# In[108]:
+# In[7]:
 
 st = set(range(10))
 get_ipython().magic('timeit (-1 in st)')
 
 
-# In[109]:
+# In[8]:
 
 st = set(range(100000))
 get_ipython().magic('timeit (-1 in st)')
@@ -59,13 +59,13 @@ get_ipython().magic('timeit (-1 in st)')
 
 # ## Converting a list of length $n$ to a dict is $O(n)$
 
-# In[110]:
+# In[9]:
 
 lst = range(10)
 get_ipython().magic('timeit dct = {i:1 for i in lst}')
 
 
-# In[111]:
+# In[10]:
 
 lst = range(100000)
 get_ipython().magic('timeit dct = {i:1 for i in lst}')
