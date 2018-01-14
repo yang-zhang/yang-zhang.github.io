@@ -1,19 +1,16 @@
 
 # coding: utf-8
 
-# # Table of Contents
-#  <p><div class="lev1 toc-item"><a href="#A-relatively-complete-demo-of-reshaping-numpy.arrays-using-newaxis,-reshape,-or-expand_dims" data-toc-modified-id="A-relatively-complete-demo-of-reshaping-numpy.arrays-using-newaxis,-reshape,-or-expand_dims-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>A relatively complete demo of reshaping <code>numpy.arrays</code> using <code>newaxis</code>, <code>reshape</code>, or <code>expand_dims</code></a></div><div class="lev2 toc-item"><a href="#From-0-D" data-toc-modified-id="From-0-D-11"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>From 0-D</a></div><div class="lev3 toc-item"><a href="#From-0-D-to-1-D" data-toc-modified-id="From-0-D-to-1-D-111"><span class="toc-item-num">1.1.1&nbsp;&nbsp;</span>From 0-D to 1-D</a></div><div class="lev3 toc-item"><a href="#From-0-D-to-2-D" data-toc-modified-id="From-0-D-to-2-D-112"><span class="toc-item-num">1.1.2&nbsp;&nbsp;</span>From 0-D to 2-D</a></div><div class="lev2 toc-item"><a href="#From-1-D" data-toc-modified-id="From-1-D-12"><span class="toc-item-num">1.2&nbsp;&nbsp;</span>From 1-D</a></div><div class="lev3 toc-item"><a href="#From-1-D-to-2-D" data-toc-modified-id="From-1-D-to-2-D-121"><span class="toc-item-num">1.2.1&nbsp;&nbsp;</span>From 1-D to 2-D</a></div><div class="lev2 toc-item"><a href="#2-D" data-toc-modified-id="2-D-13"><span class="toc-item-num">1.3&nbsp;&nbsp;</span>2-D</a></div><div class="lev4 toc-item"><a href="#2-D-to-3-D" data-toc-modified-id="2-D-to-3-D-1301"><span class="toc-item-num">1.3.0.1&nbsp;&nbsp;</span>2-D to 3-D</a></div>
+# <h1>Table of Contents<span class="tocSkip"></span></h1>
+# <div class="toc" style="margin-top: 1em;"><ul class="toc-item"><li><span><a href="#Adding-dimensions-to-numpy.arrays:-newaxis-v.s.-reshape-v.s.-expand_dims" data-toc-modified-id="Adding-dimensions-to-numpy.arrays:-newaxis-v.s.-reshape-v.s.-expand_dims-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Adding dimensions to <code>numpy.arrays</code>: <code>newaxis</code> v.s. <code>reshape</code> v.s. <code>expand_dims</code></a></span><ul class="toc-item"><li><span><a href="#From-0-D" data-toc-modified-id="From-0-D-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>From 0-D</a></span><ul class="toc-item"><li><span><a href="#From-0-D-to-1-D" data-toc-modified-id="From-0-D-to-1-D-1.1.1"><span class="toc-item-num">1.1.1&nbsp;&nbsp;</span>From 0-D to 1-D</a></span></li><li><span><a href="#From-0-D-to-2-D" data-toc-modified-id="From-0-D-to-2-D-1.1.2"><span class="toc-item-num">1.1.2&nbsp;&nbsp;</span>From 0-D to 2-D</a></span></li></ul></li><li><span><a href="#From-1-D" data-toc-modified-id="From-1-D-1.2"><span class="toc-item-num">1.2&nbsp;&nbsp;</span>From 1-D</a></span><ul class="toc-item"><li><span><a href="#From-1-D-to-2-D" data-toc-modified-id="From-1-D-to-2-D-1.2.1"><span class="toc-item-num">1.2.1&nbsp;&nbsp;</span>From 1-D to 2-D</a></span></li></ul></li><li><span><a href="#2-D" data-toc-modified-id="2-D-1.3"><span class="toc-item-num">1.3&nbsp;&nbsp;</span>2-D</a></span><ul class="toc-item"><li><ul class="toc-item"><li><span><a href="#2-D-to-3-D" data-toc-modified-id="2-D-to-3-D-1.3.0.1"><span class="toc-item-num">1.3.0.1&nbsp;&nbsp;</span>2-D to 3-D</a></span></li></ul></li></ul></li></ul></li></ul></div>
 
-# # A relatively complete demo of reshaping `numpy.arrays` using `newaxis`, `reshape`, or `expand_dims`
+# # Adding dimensions to `numpy.arrays`: `newaxis` v.s. `reshape` v.s. `expand_dims`
 
-# Reshaping `numpy.arrays` with the choices of `numpy.newaxis`, `reshape`, and `expand_dims` could be confusing sometimes. Making the three do the same thing helps to demonstrate how they work. Looking at `ndim` and `shape` also helps.
+# This notebook demonstrates 3 ways to add new dimensions to numpy.arrays `usingnumpy.newaxis`, `reshape`, or `expand_dim`.
 
-# In[37]:
+# In[1]:
 
 from numpy import array, newaxis, expand_dims
-
-
-# In[38]:
 
 def show_array(y):
     print('array: \n', y)
@@ -23,7 +20,7 @@ def show_array(y):
 
 # ## From 0-D
 
-# In[39]:
+# In[2]:
 
 x = array(5)
 show_array(x)
@@ -33,7 +30,7 @@ show_array(x)
 
 # `y` is the result of adding a new dimension to `x`, and the shape is no longer empty.
 
-# In[56]:
+# In[3]:
 
 y = array(x)[newaxis]
 show_array(y)
@@ -41,7 +38,7 @@ show_array(y)
 
 # Equivalently,
 
-# In[57]:
+# In[4]:
 
 y = expand_dims(x, axis=0)
 show_array(y)
@@ -49,7 +46,7 @@ show_array(y)
 
 # Any number >= 0 does the same as the above.
 
-# In[62]:
+# In[8]:
 
 y = expand_dims(x, axis=123456)
 show_array(y)
@@ -57,7 +54,7 @@ show_array(y)
 
 # Also equivalently,
 
-# In[61]:
+# In[9]:
 
 y = x.reshape(-1,)
 show_array(y)
@@ -65,20 +62,20 @@ show_array(y)
 
 # ### From 0-D to 2-D
 
-# In[44]:
+# In[10]:
 
 y = array(x)[newaxis, newaxis]
 show_array(y)
 
 
-# In[45]:
+# In[11]:
 
 y = expand_dims(x, axis=0)
 z = expand_dims(y, axis=0)
 show_array(z)
 
 
-# In[54]:
+# In[12]:
 
 y = x.reshape(-1, 1)
 show_array(y)
@@ -86,7 +83,7 @@ show_array(y)
 
 # ## From 1-D
 
-# In[11]:
+# In[13]:
 
 x = array([5, 6, 7])
 show_array(x)
@@ -98,25 +95,25 @@ show_array(x)
 
 # Adding `newaxis` at the beginning changes the shape from `(3,)` to `(1, 3)`.
 
-# In[12]:
+# In[14]:
 
 y = array(x)[newaxis, :]
 show_array(y)
 
 
-# In[13]:
+# In[15]:
 
 y = array(x)[newaxis] # This is short hand of y = array(x)[newaxis, :]
 show_array(y)
 
 
-# In[14]:
+# In[16]:
 
 y = expand_dims(x, axis=0)
 show_array(y)
 
 
-# In[15]:
+# In[17]:
 
 y = x.reshape(1, -1)
 show_array(y)
@@ -126,13 +123,13 @@ show_array(y)
 
 # Adding `newaxis` at the end changes the shape from `(3,)` to `(3, 1)`.
 
-# In[16]:
+# In[18]:
 
 y = array(x)[:, newaxis]
 show_array(y)
 
 
-# In[17]:
+# In[19]:
 
 y = expand_dims(x, axis=1)
 show_array(y)
@@ -140,13 +137,13 @@ show_array(y)
 
 # Any number >= 1 does the same.
 
-# In[18]:
+# In[20]:
 
 y = expand_dims(x, axis=123456)
 show_array(y)
 
 
-# In[19]:
+# In[21]:
 
 y = x.reshape(-1, 1)
 show_array(y)
@@ -154,7 +151,7 @@ show_array(y)
 
 # ## 2-D
 
-# In[20]:
+# In[22]:
 
 x = array([[1, 2, 3], [4, 5, 6]])
 show_array(x)
@@ -166,37 +163,37 @@ show_array(x)
 
 # Adding `newaxis` at the beginning.
 
-# In[21]:
+# In[23]:
 
 y = array(x)[newaxis, :, :]
 show_array(y)
 
 
-# In[22]:
+# In[24]:
 
 y = array(x)[newaxis, :]
 show_array(y)
 
 
-# In[23]:
+# In[25]:
 
 y = array(x)[newaxis]
 show_array(y)
 
 
-# In[24]:
+# In[26]:
 
 y = expand_dims(x, axis=0)
 show_array(y)
 
 
-# In[25]:
+# In[27]:
 
 y = x.reshape(-1, 2, 3)
 show_array(y)
 
 
-# In[26]:
+# In[28]:
 
 y = x.reshape(-1, *x.shape)
 show_array(y)
@@ -206,31 +203,31 @@ show_array(y)
 
 # Squeaze `newaxis` in the middle.
 
-# In[27]:
+# In[29]:
 
 y = array(x)[:, newaxis, :]
 show_array(y)
 
 
-# In[28]:
+# In[30]:
 
 y = array(x)[:, newaxis]
 show_array(y)
 
 
-# In[29]:
+# In[31]:
 
 y = expand_dims(x, axis=1)
 show_array(y)
 
 
-# In[30]:
+# In[32]:
 
 y = x.reshape(2, 1, 3)
 show_array(y)
 
 
-# In[31]:
+# In[33]:
 
 y = x.reshape(x.shape[0], -1, x.shape[1])
 show_array(y)
@@ -240,13 +237,13 @@ show_array(y)
 
 # Adding `newaxis` to the end.
 
-# In[32]:
+# In[34]:
 
 y = array(x)[:, :, newaxis]
 show_array(y)
 
 
-# In[33]:
+# In[35]:
 
 y = expand_dims(x, axis=2)
 show_array(y)
@@ -254,13 +251,13 @@ show_array(y)
 
 # Any number >= 2 does the same.
 
-# In[34]:
+# In[36]:
 
 y = expand_dims(x, axis=123456)
 show_array(y)
 
 
-# In[35]:
+# In[37]:
 
 y = x.reshape(*x.shape, -1)
 show_array(y)
