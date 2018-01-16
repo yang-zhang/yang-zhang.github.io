@@ -36,6 +36,12 @@ See [here](http://kbroman.org/github_tutorial/pages/fork.html) for reference.
 git checkout --track origin/name_of_the_remote_branch
 ```
 
+### Remove an SSH passphrase
+```
+ssh-keygen -f ~/.ssh/my-ssh-file -p 
+```
+and enter only your old passphrase, enter no new passphrase.
+
 
 ### Python 2 to 3
 ```
