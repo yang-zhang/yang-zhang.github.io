@@ -103,4 +103,4 @@ ENV/
 .DS_Store
 .Rhistory
 Untitled.*
-Copy*.ipynb
+*Copy*.ipynb
