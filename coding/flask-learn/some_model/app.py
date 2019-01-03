@@ -15,6 +15,15 @@ def predict_url():
     return jsonify({'predictions': ['dog', 'puppy']})
 
 
+# # POST /mymodel/predict_file
+# # http://127.0.0.1:5000/mymodel/predict_file
+# @app.route('/mymodel/predict_file', methods=['POST'])
+# def predict_file():
+#     file = request.files['file']
+#     print(type(file))
+#     return jsonify({'predictions': ['dog', 'puppy']})
+
+
 # POST /mymodel/predict_label
 # {
 #     "url": 'dog'
